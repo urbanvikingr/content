@@ -143,7 +143,7 @@ query {
 
 Having the ability to query nested structures by simply following the edges of the data graph is an immensely powerful feature that makes for much of the power and expressiveness of GraphQL!
 
-Next to `last` a GraphQL API typically accepts a few more related arguments such as `first`, `before`, `after` and `skip` that can be passed when querying a *to-many-relation*. This capability of an API makes it very easy to implement pagination on the client by asking for a specific range of objects from the list.
+In addition to `last` a GraphQL API typically accepts a few more related arguments such as `first`, `before`, `after` and `skip` that can be passed when querying a *to-many-relation*. This capability of an API makes it very easy to implement pagination on the client by asking for a specific range of objects from the list.
 
 With the flexibility of the GraphQL spec, it's further possible to specify powerful filters on the client that will be resolved by the server. In the [Graphcool Simple API](!alias-heshoov3ai/), it's also possible to specify a filter to restrict the amount of information that's returned by the server. Let's consider two simple examples.
 
@@ -265,7 +265,7 @@ subscription {
 }
 ```
 
-There a two things to note about how the payload of this subscription is specified:
+There are two things to note about how the payload of this subscription is specified:
 
 * the `mutation` field carries information about the kind of mutation that was performed (`CREATED`, `UPDATED` or `DELETED`)
 * the `node` field allows to access information about the new (or updated) tweet

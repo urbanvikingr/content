@@ -87,19 +87,6 @@ mutation {
     }
   }
 }
-
-# or
-# mutation {
-#   updateMetaInformation(input: {
-#    id: "cixnjj4l90ipl0106vp6u7a2f",
-#    postId: "cixnen24p33lo0143bexvr52n"
-#    clientMutationId: "abc"
-#  }) {
-#      post {
-#        title
-#      }
-#   }
-# }
 ---
 {
   "data": {
@@ -112,16 +99,34 @@ mutation {
     }
   }
 }
+```
 
-# {
-#   "data": {
-#     "updateMetaInformation": {
-#       "post": {
-#         "title": "My biggest Adventure"
-#       }
-#     }
-#   }
-# }
+```graphql
+---
+endpoint: https://api.graph.cool/relay/v1/cixne4sn40c7m0122h8fabni1
+disabled: true
+---
+mutation {
+  updateMetaInformation(input: {
+    id: "cixnjj4l90ipl0106vp6u7a2f",
+    postId: "cixnen24p33lo0143bexvr52n"
+    clientMutationId: "abc"
+  }) {
+    post {
+      title
+    }
+   }
+ }
+---
+{
+  "data": {
+    "updateMetaInformation": {
+      "post": {
+        "title": "My biggest Adventure"
+      }
+    }
+  }
+}
 ```
 
 ## Disconnect two nodes in a one-to-one relation

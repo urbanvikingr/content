@@ -145,6 +145,18 @@ A big thank you to all contributors and supporters of this repository 💚
 <a href="https://github.com/khaister/" target="_blank">
   <img src="https://github.com/khaister.png?size=64" width="64" height="64" alt="khaister">
 </a>
+<a href="https://github.com/vyca2017/" target="_blank">
+  <img src="https://github.com/vyca2017.png?size=64" width="64" height="64" alt="vyca2017">
+</a>
+<a href="https://github.com/jasonmerino/" target="_blank">
+  <img src="https://github.com/jasonmerino.png?size=64" width="64" height="64" alt="jasonmerino">
+</a>
+<a href="https://github.com/kbrandwijk/" target="_blank">
+  <img src="https://github.com/kbrandwijk.png?size=64" width="64" height="64" alt="kbrandwijk">
+</a>
+<a href="https://github.com/gstvbrg/" target="_blank">
+  <img src="https://github.com/gstvbrg.png?size=64" width="64" height="64" alt="gstvbrg">
+</a>
 
 ## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
 
