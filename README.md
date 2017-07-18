@@ -145,6 +145,9 @@ A big thank you to all contributors and supporters of this repository 💚
 <a href="https://github.com/khaister/" target="_blank">
   <img src="https://github.com/khaister.png?size=64" width="64" height="64" alt="khaister">
 </a>
+<a href="https://github.com/vyca2017/" target="_blank">
+  <img src="https://github.com/vyca2017.png?size=64" width="64" height="64" alt="vyca2017">
+</a>
 
 ## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
 
