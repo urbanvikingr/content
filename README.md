@@ -148,6 +148,9 @@ A big thank you to all contributors and supporters of this repository 💚
 <a href="https://github.com/vyca2017/" target="_blank">
   <img src="https://github.com/vyca2017.png?size=64" width="64" height="64" alt="vyca2017">
 </a>
+<a href="https://github.com/jasonmerino/" target="_blank">
+  <img src="https://github.com/jasonmerino.png?size=64" width="64" height="64" alt="jasonmerino">
+</a>
 
 ## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
 
