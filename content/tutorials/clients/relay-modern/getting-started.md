@@ -435,6 +435,8 @@ export default createFragmentContainer(Post, graphql`
 `)
 ```
 
+> Note that as you're adding the fragments now, the `relay-compiler` will throw some errors when you're running it. You'll fix these in the following steps.
+
 Here's where it gets interesting! Let's examine this part step-by-step:
 
 You're using the `createFragmentContainer` higher-order component and pass in two arguments - exactly as we said before. The first argument is simply the React component, here that's the `Post`. The second argument are its data requirements in the form of a GraphQL fragment wrapped using the `graphql` function. The `Post` component needs access to the `description` and `imageUrl` of a post item. The `id` is added for deleting the post later on.
@@ -662,6 +664,8 @@ mutation howdy {
   }
 }
 ```
+
+Notice that you'll have to switch the Playground mode from **Simple** to **Relay** for the mutations to work! 
 
 Then click the _Play_-button and select each of these mutations exactly once:
 
