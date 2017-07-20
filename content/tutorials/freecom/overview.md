@@ -52,6 +52,8 @@ If you want to get a taste of what the final version looks like, you can go [her
 
 ![](./overview-demo.png)
 
+> **Note (07-20-2017)**: The Slash command inside the Slack team currently doesn't work, so support agents aren't able to reply to customers with the current setup. This is because Slack has deprecated the use of single Slash commands in a team and instead requires a "Slack App" to be installed. We'll update the tutorial soon to make use of this new concept.
+
 ## Tutorial Curriculum
 
 Here is a brief overview of the tutorial chapters to come:
