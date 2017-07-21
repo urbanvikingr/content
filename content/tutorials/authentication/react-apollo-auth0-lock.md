@@ -138,7 +138,7 @@ ReactDOM.render((
     </Router>
   </ApolloProvider>
   ),
-  document.getElementById('fetchPolicy: 'network-only'root')
+  document.getElementById('root')
 )
 ```
 
