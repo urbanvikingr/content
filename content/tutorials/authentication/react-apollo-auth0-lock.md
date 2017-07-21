@@ -126,7 +126,7 @@ Now we can create the Apollo Client instance `client` and pass it to `ApolloProv
 Still in `src/index.js`, we have to add the following code:
 
 ```js
-// in
+// in src/index.js
 const client = new ApolloClient({ networkInterface })
 
 ReactDOM.render((
