@@ -22,7 +22,7 @@ By returning an object that contains an `error` property, you can populate error
 
 ### Returning error messages
 
-To return an error message, returns an object with the key`error` that is a String:
+To return an error message, returns an object with the key `error` that is a String:
 
 ```js
 module.exports = function (event) {
