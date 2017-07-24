@@ -39,7 +39,7 @@ module.exports = function (event) {
 require('isomorphic-fetch')
 
 // only allow current mutation if more than 3 movies exist in external API
-module.exports = function (event) => {
+module.exports = function(event) {
   var movieAPI = 'https://api.graph.cool/simple/v1/cixos23120m0n0173veiiwrjr'
 
   var query = `
