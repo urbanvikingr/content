@@ -33,7 +33,7 @@ const FormData =require('form-data')
 const apiKey = '__MAILGUN_API_KEY__'
 const url = '__MAILGUN_URL__'
 
-module.exports = function (input, log) {
+module.exports = function (event) {
 
   const form = new FormData()
   form.append('from', 'Nilan <nilan@graph.cool>')
@@ -41,7 +41,7 @@ module.exports = function (input, log) {
   form.append('subject', 'Test')
   form.append('text', 'Hi')
 
-  fetch(url, {
+  return fetch(url, {
     headers: {
       'Authorization': `Basic ${Base64.btoa(apiKey)}`
     },
