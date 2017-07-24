@@ -287,7 +287,7 @@ mutation createAuthor($name: String!, $age: Int) {
 ## Update Node
 
 ```graphql
-mutation updatePost(id: ID!, $slug: String!) {
+mutation updatePost($id: ID!, $slug: String!) {
   updatePost(id: $id, slug: $slug) {
     id
   }
@@ -297,7 +297,7 @@ mutation updatePost(id: ID!, $slug: String!) {
 ## Delete Node
 
 ```graphql
-mutation deletePost(id: ID!) {
+mutation deletePost($id: ID!) {
   deletePost(id: $id) {
     id
   }
