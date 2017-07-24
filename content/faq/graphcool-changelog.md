@@ -15,6 +15,24 @@ related:
 
 # Changelog
 
+## Week 29 (July 17 - July 23)
+
+* [Subscriptions](!alias-aip7oojeiv)
+
+  We identified and fixed a bug causing intermittent connection problems with Subscription WebSockets. 🎉
+
+* Resources and Community Contributions
+
+  A bunch of amazing contributions by this week's **Graphcool Heroes** 💪
+
+  * A GraphQL version for the popular admin-on-rest to by the [marmelab team](https://github.com/marmelab) to build an admin interface has finally been released. Check it out: [aor-graphql-client](https://github.com/marmelab/aor-graphql).
+  * [@georgelovegrove](https://github.com/georgelovegrove/) prepared an [Authentication Boilerplate Example](https://www.graph.cool/forum/t/latest-react-native-react-and-expo-packages-used-with-graphcool-auth0-and-react-navigation/372/1) with Expo, react-navigation, Auth0 and Graphcool.
+  * More examples to the [Graphcool Functions Collection](https://github.com/graphcool-examples/functions) have been added!
+    * A [Tic Tac Toe Server Example](https://github.com/graphcool-examples/functions/pull/23) that covers many different components like [Permissions](!alias-iegoo0heez), [Server-Side Subscriptions](!alias-ahlohd8ohn) and [Request Pipeline Functions](!alias-pa6guruhaf) by [@kbrandwijk](https://github.com/kbrandwijk). Have fun playing! 🕹
+    * Another great contribution for the schema extension beta! [@katopz](https://github.com/katopz) has put together [an authentication example using Github](https://github.com/graphcool-examples/functions/pull/25).
+    * The existing SendGrid example has received an upgrade by [@heymartinadams](https://github.com/heymartinadams) and [@kbrandwijk](https://github.com/kbrandwijk) to cover [adding contacts to a SendGrid email list](https://github.com/graphcool-examples/functions/pull/26).
+  * [@export-mike](https://github.com/export-mike) shared a [delete script](https://github.com/graphcool-examples/scripts/pull/1) to delete all nodes of a certain type.
+
 ## Week 28 (July 10 - July 16)
 
 * [CLI](!alias-kie1quohli)
