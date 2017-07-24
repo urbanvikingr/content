@@ -157,9 +157,13 @@ A big thank you to all contributors and supporters of this repository 💚
 <a href="https://github.com/gstvbrg/" target="_blank">
   <img src="https://github.com/gstvbrg.png?size=64" width="64" height="64" alt="gstvbrg">
 </a>
+<a href="https://github.com/tutturen/" target="_blank">
+  <img src="https://github.com/tutturen.png?size=64" width="64" height="64" alt="tutturen">
+</a>
+
 
 ## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
 
-Join our [Slack community](http://slack.graph.cool/) if you run into issues or have questions. We love talking to you!
+Say hello in our [Slack](http://slack.graph.cool/) or visit the [Graphcool Forum](https://www.graph.cool/forum) if you run into issues or have questions. We love talking to you!
 
 ![](http://i.imgur.com/5RHR6Ku.png)

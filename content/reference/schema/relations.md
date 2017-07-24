@@ -16,7 +16,7 @@ related:
 
 A *relation* defines the interaction between two [types](!alias-ij2choozae). Two types in a relation are connected via a [relation field](!alias-teizeit5se) on each type.
 
-A relation can also connect a type with itself. It is then referred to as a *self-relation*
+A relation can also connect a type with itself. It is then referred to as a *self-relation*.
 
 ## Required Relations
 

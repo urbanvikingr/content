@@ -3,7 +3,7 @@ alias: oopheesaj9
 path: /docs/tutorials/react-apollo-email
 layout: TUTORIAL
 preview: gc-email.png
-description: Learn how to provide secure data access to your GraphQL backend and provide email/password-based user authentication with Auth0 in React and Apollo.
+description: Learn how to provide secure data access to your GraphQL backend and provide email/password-based user authentication in React and Apollo.
 tags:
   - authentication
   - auth-providers
@@ -58,7 +58,7 @@ You can create the project using the [Graphcool CLI](https://www.npmjs.com/packa
 npm install -g graphcool
 
 # Create new project
-graphcool init --schema https://graphqlbin.com/insta-auth0.graphql
+graphcool init --schema https://graphqlbin.com/insta-email.graphql
 ```
 
 

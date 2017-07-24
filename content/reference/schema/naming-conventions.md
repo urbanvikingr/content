@@ -73,4 +73,4 @@ The name of an enum value can be used in query filters and mutations. They can c
 
 * `A`
 * `ROLE_TAG`
-* `ROLE_TAG2`
+* `RoleTag`
