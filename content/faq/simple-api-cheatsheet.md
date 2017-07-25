@@ -93,7 +93,7 @@ query orderPostsBySlug {
 ```graphql
 query filterPostsBySlug($slug: String!) {
   allPosts(filter: {
-    slug: $slugStart
+    slug: $slug
   }) {
     id
     text
@@ -159,7 +159,7 @@ query filterPostsBySlugAndAuthorName($slug: String!, $authorName: String!) {
   # only return posts with matching slug and author name
   and: allPosts(filter: {
     AND: [{
-      slug: $slugStart
+      slug: $slug
     }, {
       author: {
         name: $authorName
@@ -173,7 +173,7 @@ query filterPostsBySlugAndAuthorName($slug: String!, $authorName: String!) {
   # return posts with matching slug or matching author name
   or: allPosts(filter: {
     OR: [{
-      slug_starts_with: $slugStart
+      slug_starts_with: $slug
     }, {
       author: {
         name: $authorName
@@ -187,7 +187,7 @@ query filterPostsBySlugAndAuthorName($slug: String!, $authorName: String!) {
 ```
 
 ```graphql
-query filterPostsBySlugAndAuthorName($slugStar: String!, $authorName: String!) {
+query filterPostsBySlugAndAuthorName($slugStart: String!, $authorName: String!) {
   allPosts(filter: {
     AND: [{
       slug_starts_with: $slugStart
@@ -274,7 +274,7 @@ mutation createPost($text: String!, $slug: String!) {
 
 ```graphql
 mutation createAuthor($name: String!, $age: Int) {
-  withAge: createAuthor(name: $name, age: $a) {
+  withAge: createAuthor(name: $name, age: $age) {
     id
   }
 
