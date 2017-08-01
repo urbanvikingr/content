@@ -15,6 +15,54 @@ related:
 
 # Changelog
 
+## Week 29 (July 17 - July 23)
+
+* [Subscriptions](!alias-aip7oojeiv)
+
+  We identified and fixed a bug causing intermittent connection problems with Subscription WebSockets. 🎉
+
+* Resources and Community Contributions
+
+  A bunch of amazing contributions by this week's **Graphcool Heroes** 💪
+
+  * A GraphQL version for the popular admin-on-rest to by the [marmelab team](https://github.com/marmelab) to build an admin interface has finally been released. Check it out: [aor-graphql-client](https://github.com/marmelab/aor-graphql).
+  * [@georgelovegrove](https://github.com/georgelovegrove/) prepared an [Authentication Boilerplate Example](https://www.graph.cool/forum/t/latest-react-native-react-and-expo-packages-used-with-graphcool-auth0-and-react-navigation/372/1) with Expo, react-navigation, Auth0 and Graphcool.
+  * More examples to the [Graphcool Functions Collection](https://github.com/graphcool-examples/functions) have been added!
+    * A [Tic Tac Toe Server Example](https://github.com/graphcool-examples/functions/pull/23) that covers many different components like [Permissions](!alias-iegoo0heez), [Server-Side Subscriptions](!alias-ahlohd8ohn) and [Request Pipeline Functions](!alias-pa6guruhaf) by [@kbrandwijk](https://github.com/kbrandwijk). Have fun playing! 🕹
+    * Another great contribution for the schema extension beta! [@katopz](https://github.com/katopz) has put together [an authentication example using Github](https://github.com/graphcool-examples/functions/pull/25).
+    * The existing SendGrid example has received an upgrade by [@heymartinadams](https://github.com/heymartinadams) and [@kbrandwijk](https://github.com/kbrandwijk) to cover [adding contacts to a SendGrid email list](https://github.com/graphcool-examples/functions/pull/26).
+  * [@export-mike](https://github.com/export-mike) shared a [delete script](https://github.com/graphcool-examples/scripts/pull/1) to delete all nodes of a certain type.
+
+## Week 28 (July 10 - July 16)
+
+* [CLI](!alias-kie1quohli)
+
+  The **Graphcool CLI version 1.2.0** is now released with improvements to regions, better error messages and the status command. See the [full release notes](https://github.com/graphcool/graphcool-cli/releases/tag/v1.2.0).
+
+* [Migrations](!alias-paesahku9t)
+
+  **Schema migrations have been improved** around adding optional and required [relations](!alias-goh5uthoc1), using the [migrationValue](!alias-aeph6oyeez#migrating-the-value-of-a-scalar-field) directive and renaming relations. In general, **schema migrations handle bad input more robust and user friendly** than before.
+
+* [API](!alias-heshoov3ai)
+
+  **Invalid JSON data is now handled gracefully** for queries and mutations. See the fix for JSON data in RP functions below, too.
+
+* [Functions](!alias-boo6uteemo)
+
+  **Event data parsing and validation for [functions in  the Request Pipeline](!alias-pa6guruhaf) has been improved**. [JSON fields](!alias-teizeit5se#json) are now correctly validated and passing empty lists is working as expected.
+
+* Resources and Community Contributions
+
+  * The Fullstack GraphQL Tutorial [How to GraphQL](https://www.howtographql.com) has been [launched](https://www.graph.cool/blog/2017-07-11-howtographql-xaixed1aa9/) with big success 🎉 Thanks to all the initial contributors, but also all the great contributions from the community on GitHub!
+  * The closed beta for **Schema Extensions** is quickly progressing thanks to the help of the community 🏇. Many new examples are now available, with more to come soon:
+    * [@petrvlcek](https://github.com/petrvlcek) contributed an [amazing example for authentication with Auth0](https://github.com/graphcool-examples/functions/pull/18) and `RS256` tokens. It comes in a AWS Lambda and Auth0 Webtask variant.
+    * Another wonderful example for [Email/Password authentication](https://github.com/graphcool-examples/functions/pull/19) has been contributed by [@stevewpatterson](https://github.com/stevewpatterson). It includes flows for **signup, login, updating email and password**.
+    * We added an example for [authentication using Google](https://github.com/graphcool-examples/functions/pull/17).
+
+    Reach out in Slack if you're interested to participate in the beta program.
+
+  * Thanks to [@mwickett](https://github.com/mwickett) for improving the [generate slug example](https://github.com/graphcool-examples/functions/pull/20) with a better approach for slug generation.
+
 ## Week 27 (July 3 - July 9)
 
 * [Console](!alias-uh8shohxie)
@@ -50,7 +98,7 @@ related:
   * A [new episode of GraphQL Radio is available](https://www.youtube.com/watch?v=Gxag5PXGXN8), this time with Jordan Husney and Matthew Krick from Parabol. Discussed topics include adopting GraphQL, GraphQL Subscriptions and RethinkDB for real time support.
   * Another week, another batch of Graphcool heroes! 💪
     * Several [plugins to the File API using Graphcool Functions](https://github.com/graphcool-examples/functions/pull/11) have been collected and provided by community member [@kbrandwijk](https://github.com/kbrandwijk), and reviewed by [@yusinto](https://github.com/yusinto). Thanks for your fantastic contributions! 💯
-    * [@derBingle](https://github.com/derBingle/) shared his cool [Graphcool Electron App](https://github.com/derBingle/graphcool-desktop). 😎
+    * [@derBingle](https://github.com/derBingle/) shared his cool [Graphcool Electron App](https://www.graph.cool/forum/t/nativefied-graphcool-console/277/1).
     * [@notrab](https://github.com/notrab) is putting out a lot of useful GraphQL resources lately in his [YouTube channel](https://www.youtube.com/channel/UCcSj41xzQJCT2V0GNwlob_w)! He also recently [reviewed Graphcool](https://www.youtube.com/watch?v=5S4xaUVc9Dg), thanks for the valuable feedback! 🙋
 
 ## Week 25 (June 19 - June 25)

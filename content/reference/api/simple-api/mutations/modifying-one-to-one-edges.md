@@ -85,18 +85,6 @@ mutation {
     }
   }
 }
-
-# or
-# mutation {
-#   updateMetaInformation(
-#    id: "cixnjj4l90ipl0106vp6u7a2f",
-#      postId: "cixnen24p33lo0143bexvr52n"
-#    ) {
-#      post {
-#        title
-#      }
-#   }
-# }
 ---
 {
   "data": {
@@ -109,28 +97,42 @@ mutation {
     }
   }
 }
-
-# {
-#   "data": {
-#     "updateMetaInformation": {
-#       "post": {
-#         "title": "My biggest Adventure"
-#       }
-#     }
-#   }
-# }
 ```
 
-
-
+```graphql
+---
+endpoint: https://api.graph.cool/simple/v1/cixne4sn40c7m0122h8fabni1
+disabled: true
+---
+mutation {
+  updateMetaInformation(
+    id: "cixnjj4l90ipl0106vp6u7a2f",
+    postId: "cixnen24p33lo0143bexvr52n"
+  ) {
+    post {
+      title
+    }
+  }
+}
+---
+{
+ "data": {
+   "updateMetaInformation": {
+     "post": {
+       "title": "My biggest Adventure"
+     }
+   }
+ }
+}
+```
 
 ## Disconnect two nodes in a one-to-one relation
 
-Removes an edge of a node speficied by `id`.
+Removes an edge between two nodes speficied by their `id`.
 
 The query response can contain both nodes of the former edge. The names of query arguments and node names depend on the field names of the relation.
 
-> Removes an edge from the relation called `PostCategory` and query the category name and the post title:
+> Removes an edge from the relation called `PostMetaInformation` and query the tags stored in the meta information and the post title:
 
 ```graphql
 ---
@@ -153,7 +155,7 @@ mutation {
 ---
 {
   "data": {
-    "setPostMetaInformation": {
+    "unsetPostMetaInformation": {
       "metaInformationMetaInformation": {
         "tags": [
           "GENERAL"

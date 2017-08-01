@@ -2,16 +2,13 @@
 alias: ahlohd8ohn
 path: /docs/reference/functions/server-side-subscriptions
 layout: REFERENCE
-description: Server-side subscriptions are a simple yet powerful event-based concept on top of GraphQL to implement custom business logic.
+description: Server-side subscriptions are a simple yet powerful event-based concept on top of GraphQL to implement custom business logic asynchronously.
 tags:
   - functions
 related:
   further:
-    - uh8shohxie
-    - ol0yuoz6go
+    - dee0aethoo
   more:
-    - dah6aifoce
-    - soiyaquah7
 ---
 
 # Server-side Subscriptions
@@ -36,7 +33,7 @@ const FormData =require('form-data')
 const apiKey = '__MAILGUN_API_KEY__'
 const url = '__MAILGUN_URL__'
 
-module.exports = function (input, log) {
+module.exports = function (event) {
 
   const form = new FormData()
   form.append('from', 'Nilan <nilan@graph.cool>')
@@ -44,7 +41,7 @@ module.exports = function (input, log) {
   form.append('subject', 'Test')
   form.append('text', 'Hi')
 
-  fetch(url, {
+  return fetch(url, {
     headers: {
       'Authorization': `Basic ${Base64.btoa(apiKey)}`
     },

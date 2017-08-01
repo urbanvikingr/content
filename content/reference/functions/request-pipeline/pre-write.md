@@ -2,7 +2,7 @@
 alias: phe1gei6io
 path: /docs/reference/functions/request-pipeline/communicate-with-external-apis
 layout: REFERENCE
-description: Functions give developers a nice and familiar way to employ custom business logic.
+description: Use Graphcool Functions to initiate external workflows before data is written to the database.
 tags:
   - functions
 related:
@@ -39,7 +39,7 @@ module.exports = function (event) {
 require('isomorphic-fetch')
 
 // only allow current mutation if more than 3 movies exist in external API
-module.exports = function (event) => {
+module.exports = function(event) {
   var movieAPI = 'https://api.graph.cool/simple/v1/cixos23120m0n0173veiiwrjr'
 
   var query = `
@@ -67,6 +67,6 @@ module.exports = function (event) => {
   }).catch((error) => {
     console.log(error)
     return {error: 'Could not connect to Movie API'}
-  }
+  })
 }
 ```

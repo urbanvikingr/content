@@ -40,4 +40,7 @@ Enter the collected credentials in the Algolia integration popup in the [Integra
 
 ![](./algolia-create-index.png)
 
-> An initial sync operation will only sync the first 1000 nodes over to Algolia. You can always initiate a sync for a specific node by "touching" it (call the update mutation without actually changing any values)
+## Limitations
+
+* An initial sync operation will only sync the first 1000 nodes over to Algolia. You can always initiate a sync for a specific node by "touching" it. Here's an [example script for touching all nodes of a certain type](https://github.com/graphcool-examples/scripts/tree/master/touch-nodes).
+* If you use a filter in your Algolia Index query, **nodes will not be deleted from Algolia when they don't match the filter after an update operation** . If you want to delete records from Algolia if a node doesn't match a certain condition, you can [setup a Server-Side Subscription Function](!alias-ahlohd8ohn) that removes the record using the Algolia API directly.

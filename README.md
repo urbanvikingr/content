@@ -139,9 +139,33 @@ A big thank you to all contributors and supporters of this repository 💚
 <a href="https://github.com/brenmcnamara/" target="_blank">
   <img src="https://github.com/brenmcnamara.png?size=64" width="64" height="64" alt="brenmcnamara">
 </a>
+<a href="https://github.com/jakelowen/" target="_blank">
+  <img src="https://github.com/jakelowen.png?size=64" width="64" height="64" alt="jakelowen">
+</a>
+<a href="https://github.com/khaister/" target="_blank">
+  <img src="https://github.com/khaister.png?size=64" width="64" height="64" alt="khaister">
+</a>
+<a href="https://github.com/vyca2017/" target="_blank">
+  <img src="https://github.com/vyca2017.png?size=64" width="64" height="64" alt="vyca2017">
+</a>
+<a href="https://github.com/jasonmerino/" target="_blank">
+  <img src="https://github.com/jasonmerino.png?size=64" width="64" height="64" alt="jasonmerino">
+</a>
+<a href="https://github.com/kbrandwijk/" target="_blank">
+  <img src="https://github.com/kbrandwijk.png?size=64" width="64" height="64" alt="kbrandwijk">
+</a>
+<a href="https://github.com/gstvbrg/" target="_blank">
+  <img src="https://github.com/gstvbrg.png?size=64" width="64" height="64" alt="gstvbrg">
+</a>
+<a href="https://github.com/tutturen/" target="_blank">
+  <img src="https://github.com/tutturen.png?size=64" width="64" height="64" alt="tutturen">
+</a>
+<a href="https://github.com/fvieira/" target="_blank">
+  <img src="https://github.com/fvieira.png?size=64" width="64" height="64" alt="fvieira">
+</a>
 
 ## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
 
-Join our [Slack community](http://slack.graph.cool/) if you run into issues or have questions. We love talking to you!
+Say hello in our [Slack](http://slack.graph.cool/) or visit the [Graphcool Forum](https://www.graph.cool/forum) if you run into issues or have questions. We love talking to you!
 
 ![](http://i.imgur.com/5RHR6Ku.png)

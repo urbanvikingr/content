@@ -2,7 +2,7 @@
 alias: quawa7aed0
 path: /docs/reference/functions/error-handling
 layout: REFERENCE
-description: Functions give developers a nice and familiar way to employ custom business logic.
+description: Graphcool Functions allow you to return customized error messages or JSON objects as a response to a GraphQL mutation.
 tags:
   - functions
 related:
@@ -22,7 +22,7 @@ By returning an object that contains an `error` property, you can populate error
 
 ### Returning error messages
 
-To return an error message, returns an object with the key`error` that is a String:
+To return an error message, returns an object with the key `error` that is a String:
 
 ```js
 module.exports = function (event) {

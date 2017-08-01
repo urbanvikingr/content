@@ -3,7 +3,7 @@ alias: oopheesaj9
 path: /docs/tutorials/react-apollo-email
 layout: TUTORIAL
 preview: gc-email.png
-description: Learn how to provide secure data access to your GraphQL backend and provide email/password-based user authentication with Auth0 in React and Apollo.
+description: Learn how to provide secure data access to your GraphQL backend and provide email/password-based user authentication in React and Apollo.
 tags:
   - authentication
   - auth-providers
@@ -58,7 +58,7 @@ You can create the project using the [Graphcool CLI](https://www.npmjs.com/packa
 npm install -g graphcool
 
 # Create new project
-graphcool init --schema https://graphqlbin.com/insta-auth0.graphql
+graphcool init --schema https://graphqlbin.com/insta-email.graphql
 ```
 
 
@@ -167,19 +167,19 @@ _isLoggedIn = () => {
 To log out, we can simply remove the authentication token from local storage and reload to cleanly reset Apollo Client's cache:
 
 ```js
-_logout = () => {
 // in src/components/App.js
 //...
-// remove token from local storage and reload page to reset apollo client
-window.localStorage.removeItem('graphcoolToken')
-location.reload()
-//...
+_logout = () => {
+  // remove token from local storage and reload page to reset apollo client
+  window.localStorage.removeItem('graphcoolToken')
+  window.location.reload()
 }
+//...
 ```
 
 We use the logged in status to either render a login button or a logout button and a new post button in case the user is already logged in.
 
-There are a few reasons we are force fetching the user in every request. For example, a user might be logged in for a long time already, and the authentication token already expired. If you make another query or mutation and included an invalid authentication token for whatever reason, you will get a error message. You could add additional logic to your application that identifies this situation with the help of the returned error and prompts the user to login again when the token expired. In our example we will simply redirect if the user query doesn't return what we expect.
+There are a few reasons we are force fetching the user in every request. For example, a user might be logged in for a long time already, and the authentication token already expired. If you make another query or mutation and included an invalid authentication token for whatever reason, you will get an error message. You could add additional logic to your application that identifies this situation with the help of the returned error and prompts the user to login again when the token expired. In our example we will simply redirect if the user query doesn't return what we expect.
 
 We will use the user query to check if the user is authenticated in a few other components as well.
 

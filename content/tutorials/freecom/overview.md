@@ -27,7 +27,7 @@ Everybody loves the live chat experience of [Intercom](https://www.intercom.com)
 
 In the next couple of weeks, we are going to release increments of the final product along with tutorial chapters, teaching you how to build a fully-fledged application from scratch. Freecom will be powered by a Graphcool backend, thus making it a perfect opportunity for you to get started with [GraphQL](https://www.graphql.org) while discovering all major functionality of the Graphcool platform!
 
-The final project not only can be used in production, it also is a great reference project and starting point for your next GraphQL app!
+The final project not only can be used in production, it also is a great reference project and starting point for your next GraphQL app! You can find the code for all the released chapters on [GitHub](https://github.com/graphcool-examples/freecom-tutorial).
 
 ## The "Stack"
 
@@ -51,6 +51,8 @@ If you want to get a taste of what the final version looks like, you can go [her
 - Password: `freecom`
 
 ![](./overview-demo.png)
+
+> **Note (07-20-2017)**: The Slash command inside the Slack team currently doesn't work, so support agents aren't able to reply to customers with the current setup. This is because Slack has deprecated the use of single Slash commands in a team and instead requires a "Slack App" to be installed. We'll update the tutorial soon to make use of this new concept.
 
 ## Tutorial Curriculum
 

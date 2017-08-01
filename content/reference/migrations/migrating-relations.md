@@ -2,11 +2,12 @@
 alias: shiz6ov4ae
 path: /docs/reference/migrations/relations
 layout: REFERENCE
-description: There are many possible options to update a GraphQL schema, referred to as schema migrations. Some of them require data migrations as well.
+description: Relations describe the interaction of two types in your data schema. You can add, remove or modify existing relations using schema migrations.
 tags:
   - migrations
 related:
   further:
+    - goh5uthoc1
   more:
 ---
 
@@ -236,7 +237,7 @@ To change the multiplicity of the `stories` field from `to-many` to `to-one`, si
 type User implements Node {
   id: ID!
   name: String!
-  stories: [Story!]! @relation(name: "UserOnStory")
+  stories: Story @relation(name: "UserOnStory")
 }
 
 type Story implements Node {

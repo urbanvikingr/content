@@ -135,7 +135,7 @@ class ListPage extends React.Component {
 export default ListPage
 ```
 
-* `CreatePost` in `src/components/CreatePage.js` to create new posts
+* `CreatePage` in `src/components/CreatePage.js` to create new posts
 
 ```js
 import React from 'react'

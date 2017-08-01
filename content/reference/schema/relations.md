@@ -8,21 +8,15 @@ tags:
   - relations
 related:
   further:
-    - ahwoh2fohj
-    - ij2choozae
-    - teizeit5se
-    - uhieg2shio
-    - oe3raifamo
+    - shiz6ov4ae
   more:
-    - aing2chaih
-    - ahsoow1ool
 ---
 
 # Relations
 
 A *relation* defines the interaction between two [types](!alias-ij2choozae). Two types in a relation are connected via a [relation field](!alias-teizeit5se) on each type.
 
-A relation can also connect a type with itself. It is then referred to as a *self-relation*
+A relation can also connect a type with itself. It is then referred to as a *self-relation*.
 
 ## Required Relations
 
@@ -49,7 +43,7 @@ type Story {
 }
 ```
 
-Here we are defining a *one-to-many* relation between the `User` and `Story` types. The relation fields are `stores: [Story!]!` and `author: User!`. Note how `[Story!]!` defines multiple stories and `User!` a single user.
+Here we are defining a *one-to-many* relation between the `User` and `Story` types. The relation fields are `stories: [Story!]!` and `author: User!`. Note how `[Story!]!` defines multiple stories and `User!` a single user.
 
 ## Generated Operations Based On Relations
 

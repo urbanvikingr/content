@@ -19,17 +19,17 @@ related:
     - chietu0ahn
 ---
 
-# Modifying edges for one-to-one relations
+# Modifying edges for one-to-one relations with the Relay API
 
 A node in a one-to-one [relation](!alias-goh5uthoc1) can at most be connected to one node.
 
 ## Connect two nodes in a one-to-one relation
 
-Creates a new edge between two nodes specified by their `id`. The according models have to be in the same [relation](!alias-goh5uthoc1).
+Creates a new edge between two nodes specified by their `id`. The according types have to be in the same [relation](!alias-goh5uthoc1).
 
 The query response can contain both nodes of the new edge. The names of query arguments and node names depend on the field names of the relation.
 
-> Consider a blog where every post at the most has one assigned category. Adds a new edge to the relation called `PostCategory` and query the category name and the post title:
+> Consider a blog where every post is assigned to additional meta information. Adds a new edge to the relation called `PostMetaInformation` and query the tags stored in the meta information and the post title:
 
 ```graphql
 ---
@@ -87,19 +87,6 @@ mutation {
     }
   }
 }
-
-# or
-# mutation {
-#   updateMetaInformation(input: {
-#    id: "cixnjj4l90ipl0106vp6u7a2f",
-#    postId: "cixnen24p33lo0143bexvr52n"
-#    clientMutationId: "abc"
-#  }) {
-#      post {
-#        title
-#      }
-#   }
-# }
 ---
 {
   "data": {
@@ -112,25 +99,43 @@ mutation {
     }
   }
 }
+```
 
-# {
-#   "data": {
-#     "updateMetaInformation": {
-#       "post": {
-#         "title": "My biggest Adventure"
-#       }
-#     }
-#   }
-# }
+```graphql
+---
+endpoint: https://api.graph.cool/relay/v1/cixne4sn40c7m0122h8fabni1
+disabled: true
+---
+mutation {
+  updateMetaInformation(input: {
+    id: "cixnjj4l90ipl0106vp6u7a2f",
+    postId: "cixnen24p33lo0143bexvr52n"
+    clientMutationId: "abc"
+  }) {
+    post {
+      title
+    }
+   }
+ }
+---
+{
+  "data": {
+    "updateMetaInformation": {
+      "post": {
+        "title": "My biggest Adventure"
+      }
+    }
+  }
+}
 ```
 
 ## Disconnect two nodes in a one-to-one relation
 
-Removes an edge of a node speficied by `id`.
+Removes an edge between two nodes speficied by their `id`.
 
 The query response can contain both nodes of the former edge. The names of query arguments and node names depend on the field names of the relation.
 
-> Removes an edge from the relation called `PostCategory` and query the category name and the post title:
+> Removes an edge from the relation called `PostMetaInformation` and query the tags stored in the meta information and the post title:
 
 ```graphql
 ---
@@ -154,7 +159,7 @@ mutation {
 ---
 {
   "data": {
-    "setPostMetaInformation": {
+    "unsetPostMetaInformation": {
       "metaInformationMetaInformation": {
         "tags": [
           "GENERAL"
