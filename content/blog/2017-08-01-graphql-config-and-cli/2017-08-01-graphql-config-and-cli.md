@@ -93,7 +93,7 @@ npm install -g graphql-cli
 The CLI ships with a plugin system so you can easily add commands to match your development workflow. You can for example check out the [GraphQL Voyager plugin](https://github.com/graphcool/graphql-cli-voyager).
 
 
-## Summary & Outlook
+## Continuously Improving Developer Experience
 
 With a unified format to write GraphQL configuration files as well as a CLI that supports common development workflows, the GraphQL tooling space sees two major additions. These are going to improve developer experience and lay the foundation for better interoperability of relevant tools in the future.
 
