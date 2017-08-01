@@ -35,7 +35,7 @@ With the growing number of tools relying on the schema, more and more different 
 
 The solution? There needs to be a standard for how to configure GraphQL projects.
 
-![](standards.png)
+![](./standards.png)
 
 ## `.graphqlconfig` - One Config to Rule Them All
 
