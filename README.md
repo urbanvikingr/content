@@ -160,7 +160,9 @@ A big thank you to all contributors and supporters of this repository 💚
 <a href="https://github.com/tutturen/" target="_blank">
   <img src="https://github.com/tutturen.png?size=64" width="64" height="64" alt="tutturen">
 </a>
-
+<a href="https://github.com/fvieira/" target="_blank">
+  <img src="https://github.com/fvieira.png?size=64" width="64" height="64" alt="fvieira">
+</a>
 
 ## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
 
