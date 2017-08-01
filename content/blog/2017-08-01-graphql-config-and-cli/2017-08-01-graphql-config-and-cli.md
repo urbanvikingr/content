@@ -82,7 +82,7 @@ Along with the unified way to write configuration files, we're also introducing 
 
 You can use it to quickly download the schema from a specific endpoint, open a GraphQL playground or show the schema diff between two different environments. Here is the CLI in action:
 
-![]()
+![](./demo.gif)
 
 You can simply install the CLI using npm:
 
