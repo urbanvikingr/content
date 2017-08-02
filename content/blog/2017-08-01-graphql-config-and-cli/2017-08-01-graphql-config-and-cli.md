@@ -17,7 +17,7 @@ related:
 
 # New Tooling to Improve Your GraphQL Workflows
 
-Together with many awesome contributors from the community including the GraphQL team at Facebook, we have developed [`graphql-config`](https://github.com/graphcool/graphql-config) - a unified way to configure GraphQL projects. We're also excited to present the beta version of a new command-line tool to improve your local GraphQL development workflow: [`graphql-cli`](https://github.com/graphcool/graphql-cli). 
+Together with many awesome contributors from the community including the GraphQL team at Facebook, we have developed [graphql-config](https://github.com/graphcool/graphql-config) - a unified way to configure GraphQL projects. We're also excited to present the beta version of a new command-line tool to improve your local GraphQL development workflow: [graphql-cli](https://github.com/graphcool/graphql-cli). 
 
 ## Fragmentation in GraphQL Tooling
 
