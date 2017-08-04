@@ -39,7 +39,7 @@ This dilemma can be solved using Graphcool's [Anonymous Auth Provider](!alias-we
 
 ## Enabling Anonymous Authentication
 
-To use the [anonymous auth provider](!alias-ieph6iujah) in our app, we first need to enable it in the **Integrations** section in the [Graphcool console](https://console.graph.cool):
+To use the anonymous auth provider in our app, we first need to enable it in the **Integrations** section in the [Graphcool console](https://console.graph.cool):
 
 ![](./img/fc4-anon-auth-provider-1.png?width=650)
 
