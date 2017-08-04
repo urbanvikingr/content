@@ -2,7 +2,7 @@
 alias: umaxaqu4ei
 path: /docs/reference/relay-api/type-aggregation
 layout: REFERENCE
-shorttitle: Type Aggregation Queries
+shorttitle: Type Aggregation
 description: For every available type in your GraphQL schema, certain queries are automatically generated.
 simple_relay_twin: choh5leigh
 tags:

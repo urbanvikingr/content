@@ -2,7 +2,7 @@
 alias: choh5leigh
 path: /docs/reference/simple-api/type-aggregation
 layout: REFERENCE
-shorttitle: Type Aggregation Queries
+shorttitle: Type Aggregation
 description: For every available type in your GraphQL schema, certain queries are automatically generated.
 simple_relay_twin: umaxaqu4ei
 tags:
