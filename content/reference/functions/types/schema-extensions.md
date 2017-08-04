@@ -24,7 +24,7 @@ Schema Extensions are one of the most powerful features offered with Graphcool. 
 * You can **wrap an external API**, for example a weather API, geolocation API or any other REST API.
 * You can **wrap your Graphcool API**, for example to introduce a specific mutation or return data in a different shape.
 
-The [Graphcool Functions collection](https://github.com/graphcool-examples/functions/) on GitHub contains a lot of examples that can inspire you for more use cases, see also [custom mutations](!alias-eixu9osueb) and [custom queries](!alias-nae4oth9ka).
+The [Graphcool Functions collection](https://github.com/graphcool-examples/functions/) on GitHub contains a lot of examples that can inspire you for more use cases, see also [custom mutations](!alias-geekae9gah) and [custom queries](!alias-nae4oth9ka).
 
 ## Trigger and Input Data
 
@@ -34,7 +34,7 @@ The trigger and input data for the Schema Extension function is defined by exten
 
 Each schema extension can only add a single query field or a single mutation field to the GraphQL API. This field can receive several scalar input arguments and has to return a payload that is also specified in the same SDL document.
 
-See also examples for [custom mutations](!alias-eixu9osueb) and [custom queries](!alias-nae4oth9ka).
+See also examples for [custom mutations](!alias-geekae9gah) and [custom queries](!alias-nae4oth9ka).
 
 [Error handling](!alias-quawa7aed0) works similarly to other Graphcool Functions, if an object containing the `error` key is returned.
 

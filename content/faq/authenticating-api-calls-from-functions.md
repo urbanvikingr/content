@@ -18,7 +18,7 @@ related:
 
 # Authenticating API Calls From Functions
 
-Functions are great for hooking into GraphQL events to implement custom business logic and as such, they usually act outside of traditional [user authentication](!alias-eixu9osueb). In this case, [permanent authentication token](!alias-eip7ahqu5o#token-types) are useful to provide your function with the needed access rights.
+Functions are great for hooking into GraphQL events to implement custom business logic and as such, they usually act outside of traditional [user authentication](!alias-geekae9gah). In this case, [permanent authentication token](!alias-eip7ahqu5o#token-types) are useful to provide your function with the needed access rights.
 
 ## Using A Permanent Authentication Token
 
