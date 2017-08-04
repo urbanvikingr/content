@@ -29,6 +29,6 @@ type Post {
 
 the following type queries will be available:
 
-* the `Post` query [to fetch a single node]().
-* the `allPost` query [to fetch multiple nodes]().
-* the `_allPostsMeta` query [to fetch aggregated information]().
+* the `Post` query [to fetch a single node](!alias-ua6eer7shu).
+* the `allPost` query [to fetch multiple nodes](!alias-pa2aothaec).
+* the `_allPostsMeta` query [to fetch aggregated information](!alias-choh5leigh).

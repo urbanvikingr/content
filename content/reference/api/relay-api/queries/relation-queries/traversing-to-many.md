@@ -80,4 +80,4 @@ query {
 
 The `posts` field exposes a further selection of properties that are defined on the `Post` type.
 
-> Note: Query arguments for an inner field returning multiple nodes work exactly the same as query arguments for queries [returning multiple nodes]().
+> Note: [Query arguments](!alias-on1yeiw7ph) for an inner field returning multiple nodes work similar as elsewhere.

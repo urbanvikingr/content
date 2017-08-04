@@ -13,11 +13,11 @@ related:
 
 # Integrations
 
-Graphcool allows the integration with different external services using [Graphcool Functions]().
+Graphcool allows the integration with different external services using [Graphcool Functions](!alias-boo6uteemo).
 
 ## Custom Authentication
 
-Custom authentication workflows can be built using [schema extensions](). The [Graphcool Functions collection](https://github.com/graphcool-examples/functions/) contains a list of examples, but **you should be able to use schema extensions to integrate with pretty much any authentication method**.
+Custom authentication workflows can be built using [Schema Extensions](!alias-xohbu7uf2e). The [Graphcool Functions collection](https://github.com/graphcool-examples/functions/) contains a list of examples, but **you should be able to use schema extensions to integrate with pretty much any authentication method**.
 
 ## Full text search with Algolia
 

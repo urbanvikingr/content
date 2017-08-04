@@ -20,7 +20,7 @@ You can also use the GraphQL Playground or any WebSocket client as described bel
 
 ## Playground
 
-The [Graphcool Playground]() can be used to explore and run GraphQL subscriptions.
+The [Graphcool Playground](!alias-oe1ier4iej) can be used to explore and run GraphQL subscriptions.
 
 Before diving into a specific implementation, **it's often better to get familiar with the available operations in the playground first**.
 

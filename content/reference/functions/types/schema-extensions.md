@@ -36,7 +36,7 @@ Each schema extension can only add a single query field or a single mutation fie
 
 See also examples for [custom mutations](!alias-eixu9osueb) and [custom queries](!alias-nae4oth9ka).
 
-[Error handling]() works similarly to other Graphcool Functions, if an object containing the `error` key is returned.
+[Error handling](!alias-quawa7aed0) works similarly to other Graphcool Functions, if an object containing the `error` key is returned.
 
 ## Current Limitations
 

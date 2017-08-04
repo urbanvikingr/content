@@ -45,8 +45,8 @@ type Author {
 
 ## Generated Operations Based On Types
 
-The types that are included in your schema effect the available operations in the [GraphQL API](). For every type,
+The types that are included in your schema effect the available operations in the [GraphQL API](!alias-heshoov3ai). For every type,
 
-* [type queries]() allow you to fetch one or many nodes of that type
-* [type mutations]() allow you to create, update or delete nodes of that type
-* [type subscriptions]() allow you to get notified of changes to nodes of that type
+* [type queries](!alias-chuilei3ce) allow you to fetch one or many nodes of that type
+* [type mutations](!alias-eamaiva5yu) allow you to create, update or delete nodes of that type
+* [type subscriptions](!alias-ohc0oorahn) allow you to get notified of changes to nodes of that type

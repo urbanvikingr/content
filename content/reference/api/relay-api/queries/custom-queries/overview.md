@@ -14,7 +14,7 @@ related:
 
 # Custom Queries in the Relay API
 
-For use cases that are not covered by the automatically generated CRUD-style API, [Schema Extension Functions]() can be used to enhance your GraphQL schema with custom queries.
+For use cases that are not covered by the automatically generated CRUD-style API, [Schema Extension Functions](!alias-xohbu7uf2e) can be used to enhance your GraphQL schema with custom queries.
 
 You can define the **name, input arguments and payload of the query** and **resolve it with a Graphcool Function**.
 
@@ -73,4 +73,4 @@ query {
 }
 ```
 
-Note that the returned object contains a `data` key, which in turn contains the `number` field that was specified in the `RandomNumberPayload` in the SDL document. [Error handling]() works similarly to other Graphcool Functions, if an object containing the `error` key is returned.
+Note that the returned object contains a `data` key, which in turn contains the `number` field that was specified in the `RandomNumberPayload` in the SDL document. [Error handling](!alias-quawa7aed0) works similarly to other Graphcool Functions, if an object containing the `error` key is returned.

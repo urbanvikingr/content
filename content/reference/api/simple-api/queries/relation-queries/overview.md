@@ -16,7 +16,7 @@ related:
 
 # Relation Queries in the Simple API
 
-Every available [relation](!alias-goh5uthoc1) in your [GraphQL schema](!alias-ahwoh2fohj) adds a new field to the [type queries]() of the two connected types.
+Every available [relation](!alias-goh5uthoc1) in your [GraphQL schema](!alias-ahwoh2fohj) adds a new field to the [type queries](!alias-chuilei3ce) of the two connected types.
 
 For example, with the following schema:
 
@@ -36,5 +36,5 @@ type User {
 
 the following fields will be available:
 
-* the `Post` and `allPosts` queries expose a new `author` field to [traverse one node]().
-* the `User` and `allUsers` queries expose a new `posts` field to [traverse many nodes]() and a `_postsMeta` to fetch [relation aggregation data]().
+* the `Post` and `allPosts` queries expose a new `author` field to [traverse one node](!alias-ian3cae2oh).
+* the `User` and `allUsers` queries expose a new `posts` field to [traverse many nodes](!alias-ohree5pu0y) and a `_postsMeta` to fetch [relation aggregation data](!alias-taesee4ua7).

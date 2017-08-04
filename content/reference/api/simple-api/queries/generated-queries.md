@@ -56,8 +56,7 @@ query {
 
 Here's a list of available queries. To explore them, use the [playground](!alias-oe1ier4iej) inside your project.
 
-* For every [type](!alias-ij2choozae) in your [GraphQL schema](!alias-ahwoh2fohj), so called type queries will be generated to fetch [single](!alias-ua6eer7shu) or [multiple nodes](!alias-pa2aothaec) for that type.
-* Queries can be used to [traverse the data graph](!alias-aihaeph5ip) whenever there's a [relation](!alias-goh5uthoc1).
-* Additionally, [custom queries]() can be added to your API using [Schema Extensions]()
+* Based on the [types](!alias-ij2choozae) and [relations](!alias-goh5uthoc1) in your [GraphQL schema](!alias-ahwoh2fohj), [type queries](!alias-chuilei3ce) and [relation queries](!alias-aihaeph5ip) will be generated to fetch type and relation data.
+* Additionally, [custom queries](!alias-) can be added to your API using [Schema Extensions](!alias-xohbu7uf2e).
 
-Some queries support [query arguments](!alias-ohrai1theo) to further control the query response.
+Some queries support [query arguments](!alias-on1yeiw7ph) to further control the query response.

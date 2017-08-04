@@ -15,7 +15,7 @@ related:
 
 # Custom Mutations in the Simple API
 
-Custom mutations can be added to your GraphQL API using [Schema Extensions]().
+Custom mutations can be added to your GraphQL API using [Schema Extensions](!alias-xohbu7uf2e).
 
 You can define the **name, input arguments and payload of the mutation** and **resolve it with a Graphcool Function**.
 
@@ -69,4 +69,4 @@ mutation {
 }
 ```
 
-Note that the returned object contains a `data` key, which in turn contains the `number` field that was specified in the `RandomNumberPayload` in the SDL document. [Error handling]() works similarly to other Graphcool Functions, if an object containing the `error` key is returned.
+Note that the returned object contains a `data` key, which in turn contains the `number` field that was specified in the `RandomNumberPayload` in the SDL document. [Error handling](!alias-quawa7aed0) works similarly to other Graphcool Functions, if an object containing the `error` key is returned.

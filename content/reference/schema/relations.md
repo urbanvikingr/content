@@ -47,9 +47,9 @@ Here we are defining a *one-to-many* relation between the `User` and `Story` typ
 
 ## Generated Operations Based On Relations
 
-The relations that are included in your schema effect the available operations in the [GraphQL API](). For every relation,
+The relations that are included in your schema effect the available operations in the [GraphQL API](!alias-heshoov3ai). For every relation,
 
-* [relation queries]() allow you to query data across types or aggregated for a relation
-* [relation mutations]() allow you to connect or disconnect nodes
-* [nested mutations]() allow you to create and connect nodes across types
-* [relation subscriptions]() allow you to get notified of changes to a relation
+* [relation queries](!alias-aihaeph5ip) allow you to query data across types or aggregated for a relation
+* [relation mutations](!alias-kaozu8co6w) allow you to connect or disconnect nodes
+* [nested mutations](!alias-ubohch8quo) allow you to create and connect nodes across types
+* [relation subscriptions](!alias-riegh2oogh) allow you to get notified of changes to a relation

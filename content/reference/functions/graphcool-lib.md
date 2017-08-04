@@ -1,3 +1,15 @@
+---
+alias: kaegh4oomu
+path: /docs/reference/functions/graphcool-lib
+layout: REFERENCE
+description: Graphcool Functions are used to add different capabilities to your Graphcool project. Validate mutation input, extend your schema and more!
+tags:
+  - functions
+related:
+  further:
+  more:
+---
+
 # graphcool-lib
 
 The `graphcool-lib` package covers common workflows that occur in Graphcool Functions or other server-side scripts. For a detailed documentation and usage examples, check the [project on GitHub](https://github.com/graphcool/graphcool-lib).
@@ -39,4 +51,4 @@ api.request(query)
   .then(data => console.log(data))
 ```
 
-> Note: the `context` property of the exposed `event` object inside a Graphcool Function will include a PAT **if it has the same name as the Graphcool Function**. If no such PAT exists, no PAT will be part of the event's context.
+> Note: the `context` property of the exposed `event` object inside a Graphcool Function will include a [Permanent Authentication Token](!alias-eip7ahqu5o) **if it has the same name as the Graphcool Function**. If no such PAT exists, no PAT will be part of the event's context.

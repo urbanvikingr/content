@@ -49,7 +49,5 @@ mutation {
 
 Here's a list of available mutations. To explore them, use the [playground](!alias-oe1ier4iej) inside your project.
 
-* For every [type](!alias-ij2choozae) in your [GraphQL schema](!alias-ahwoh2fohj), so called type mutations will be generated. They can be used to [create](), [update]() and [delete]() nodes of that type.
-* For every [relation](!alias-goh5uthoc1) in your [GraphQL schema](!alias-ahwoh2fohj), [relation mutations]() will be generated. They can be used to connect or disconnect nodes in that relation.
-* Furthermore, [nested mutations]() can be used to executed multiple mutations across types at the same time.
-* Additionally, [custom mutations]() can be added to your API using [Schema Extensions]().
+* Based on the [types](!alias-ij2choozae) and [relations](!alias-goh5uthoc1) in your [GraphQL schema](!alias-ahwoh2fohj), [type mutations](!alias-iequie1oxi) and [relation mutations](!alias-iephah3lae) will be generated to modify nodes and edges.
+* Additionally, [custom mutations](!alias-quaingai0z) can be added to your API using [Schema Extensions](!alias-xohbu7uf2e).

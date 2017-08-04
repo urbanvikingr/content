@@ -16,7 +16,7 @@ related:
 
 The **Simple API** offers many ways to interact with the data in your Graphcool project. Different options exist to [make requests to the Simple API](!alias-koo4eevun4).
 
-The foundation for the API are the **automatically generated CRUD-style operations** that are based on your [data schema](). Additionally, **you can use [Schema Extensions]() to enhance your GraphQL schema** with additional operations. There are three categories of available operations:
+The foundation for the API are the **automatically generated CRUD-style operations** that are based on your [data schema](!alias-ahwoh2fohj). Additionally, **you can use [Schema Extensions](!alias-xohbu7uf2e) to enhance your GraphQL schema** with additional operations. There are three categories of available operations:
 
 * [GraphQL Queries](!alias-nia9nushae) are used to fetch data.
 * [GraphQL Mutations](!alias-ol0yuoz6go) are used to modify data.

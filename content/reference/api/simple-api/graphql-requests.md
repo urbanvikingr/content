@@ -20,7 +20,7 @@ The Simple API is supposed to be consumed by GraphQL clients such as Apollo Clie
 
 ## Playground
 
-The [Graphcool Playground]() can be used to explore and run GraphQL mutations, queries and subscriptions.
+The [Graphcool Playground](!alias-oe1ier4iej) can be used to explore and run GraphQL mutations, queries and subscriptions.
 
 Before diving into a specific implementation, **it's often better to get familiar with the available operations in the playground first**.
 
@@ -132,4 +132,4 @@ const data = responseJSON.data
 
 ### Subscriptions
 
-Subscriptions can be created using WebSockets. Read more about [the GraphQL Subscription Protocol]().
+Subscriptions can be created using WebSockets. Read more about [the GraphQL Subscription Protocol](!alias-duj3oonog5).

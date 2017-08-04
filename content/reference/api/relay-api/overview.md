@@ -16,7 +16,7 @@ related:
 
 The **Relay API*** offers many ways to interact with the data in your Graphcool project. Different options exist to [make requests to the Relay API](!alias-thaiph8ung).
 
-The foundation for the API are the **automatically generated CRUD-style operations** that are based on your [data schema](). Additionally, **you can use [Schema Extensions]() to enhance your GraphQL schema** with additional operations. There are three categories of available operations:
+The foundation for the API are the **automatically generated CRUD-style operations** that are based on your [data schema](!alias-ahwoh2fohj). Additionally, **you can use [Schema Extensions](!alias-xohbu7uf2e) to enhance your GraphQL schema** with additional operations. There are three categories of available operations:
 
 * [GraphQL Queries](!alias-oiviev0xi7) are used to fetch data.
 * [GraphQL Mutations](!alias-vah0igucil) are used to modify data.

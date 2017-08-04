@@ -14,7 +14,7 @@ related:
 
 # Relation Subscriptions in the Simple API
 
-Currently, subscriptions for relation updates are only available with a workaround using [update subscriptions]().
+Currently, subscriptions for relation updates are only available with a workaround using [update subscriptions](!alias-ohmeta3pi4).
 
 ## Subscribing to relation changes
 
