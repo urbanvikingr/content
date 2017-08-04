@@ -17,7 +17,7 @@ related:
 
 # Data Schema
 
-The data schema of a project can be described in [SDL syntax](!alias-kr84dktnp0) and is usually managed using [schema files](!alias-aeph6oyeez). **The schema directly influences the available operations in the client APIs**.
+The data schema of a project can be described in [SDL syntax](!alias-kr84dktnp0) and is usually managed using [schema files](!alias-ow2yei7mew). **The schema directly influences the available operations in the client APIs**.
 
 Data schemas are typically saved as `.graphql` files. This is an example schema file, `schema.graphql`:
 
