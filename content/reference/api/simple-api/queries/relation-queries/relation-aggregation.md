@@ -3,7 +3,7 @@ alias: taesee4ua7
 path: /docs/reference/simple-api/relation-aggregation
 layout: REFERENCE
 shorttitle: Relation Aggregation
-description:
+description: For every available relation in your GraphQL schema, certain queries are automatically generated.
 simple_relay_twin: fe1ahseek6
 tags:
   - simple-api

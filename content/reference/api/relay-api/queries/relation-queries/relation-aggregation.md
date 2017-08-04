@@ -3,7 +3,7 @@ alias: fe1ahseek6
 path: /docs/reference/relay-api/relation-aggregation
 layout: REFERENCE
 shorttitle: Relation Aggregation
-description:
+description: For every available relation in your GraphQL schema, certain queries are automatically generated.
 simple_relay_twin: taesee4ua7
 tags:
   - relay-api
