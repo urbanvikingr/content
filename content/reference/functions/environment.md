@@ -20,7 +20,7 @@ Whenever you use a function, you can choose between defining it inline or as a w
 
 ### Node Runtime
 
-Currently, node version `4.8.4` is the runtime environment, but we're looking [to upgrade that to version 8 soon](https://github.com/graphcool/feature-requests/issues/237). By default, ES5 is supported. By starting a function with the line `use latest` however, you get access to ES6 features.
+Currently, node version `4.8.4` is the runtime environment, but we're looking [to upgrade that to version 8 soon](https://github.com/graphcool/feature-requests/issues/237). By default, ES5 is supported. By starting a function with the line `'use latest'` however, you get access to ES6 features.
 
 ### Function Containers
 
