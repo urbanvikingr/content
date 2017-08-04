@@ -15,14 +15,9 @@ related:
     - cahzai2eur
 ---
 
-# Queries
+# Queries in the Relay API
 
-A *query* enables you to declare data requirements in your app by supplying multiple [fields](!alias-teizeit5se).
-All queries are automatically generated. To explore them, use the [playground](!alias-oe1ier4iej) inside your project.
-
-After you send a query to your [endpoint](!alias-yahph3foch#project-endpoints) you will receive the *query response*. It contains the actual data for all fields that were specified in the query.
-
-This is an example query:
+A *GraphQL query* is used to fetch data from a GraphQL [endpoint](!alias-yahph3foch#project-endpoints). This is an example query:
 
 ```graphql
 ---
@@ -76,16 +71,10 @@ query {
 }
 ```
 
-There are different categories of generated queries. Depending on the query category, different *query arguments* are available that allow you to further modify the query response.
+Here's a list of available queries. To explore them, use the [playground](!alias-oe1ier4iej) inside your project.
 
-## Querying one node
+* For every [type](!alias-ij2choozae) in your [GraphQL schema](!alias-ahwoh2fohj), so called type queries will be generated to fetch [single]() or [multiple nodes]() for that type.
+* Queries can be used to [traverse the data graph]() whenever there's a [relation]().
+* Additionally, [custom queries]() can be added to your API using [Schema Extensions]()
 
-For each [type](!alias-ij2choozae) in your project there is a query to fetch [one specific node](!alias-ga4chied8m) of that type.
-
-## Querying multiple nodes
-
-For each [type](!alias-ij2choozae) in your project there is a query to fetch [multiple nodes](!alias-uu4ohnaih7) of that type.
-
-## Session user
-
-To get more information on the currently signed in user, there is a query for the [session user](!alias-peyaaph9vi)
+Some queries support [query arguments]() to further control the query response.
