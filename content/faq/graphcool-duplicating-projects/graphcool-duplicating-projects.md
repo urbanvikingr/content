@@ -25,7 +25,6 @@ When copying an existing project, you need to choose the **name** of the new pro
 
 Currently, the following settings will be automatically copied over to the duplicate project:
 
-* For every enabled [**auth provider**](!alias-seimeish6e#authentication-providers), its configuration settings.
 * If the [**Algolia integration**](!alias-emaig4uiki) is enabled, all Index Queries and configuration settings.
 * All [**permissions**](!alias-iegoo0heez).
 
