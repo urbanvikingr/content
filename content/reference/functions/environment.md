@@ -1,3 +1,15 @@
+---
+alias: hohl0iy1ji
+path: /docs/reference/functions/environment
+layout: REFERENCE
+description: Graphcool Functions can run either inline or using a remote webhook.
+tags:
+  - functions
+related:
+  further:
+  more:
+---
+
 # Graphcool Function Environment
 
 Whenever you use a function, you can choose between defining it inline or as a webhook.
