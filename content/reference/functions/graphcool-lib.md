@@ -2,6 +2,7 @@
 alias: kaegh4oomu
 path: /docs/reference/functions/graphcool-lib
 layout: REFERENCE
+beta: true
 description: Graphcool Functions are used to add different capabilities to your Graphcool project. Validate mutation input, extend your schema and more!
 tags:
   - functions

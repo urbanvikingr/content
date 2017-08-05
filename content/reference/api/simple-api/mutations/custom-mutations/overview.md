@@ -3,6 +3,7 @@ alias: thiele0aop
 path: /docs/reference/simple-api/custom-mutations
 layout: REFERENCE
 shorttitle: Custom Mutations
+beta: true
 description: Custom mutations can be added to your GraphQL API using Schema Extensions.
 simple_relay_twin: quaingai0z
 tags:

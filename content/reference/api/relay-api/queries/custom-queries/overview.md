@@ -3,6 +3,7 @@ alias: shae0xie0e
 path: /docs/reference/relay-api/custom-queries
 layout: REFERENCE
 shorttitle: Custom Queries
+beta: true
 description: Queries for custom use cases can be added to your GraphQL schema using schema extension.
 simple_relay_twin: nae4oth9ka
 tags:
