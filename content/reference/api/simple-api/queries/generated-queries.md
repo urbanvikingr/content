@@ -2,6 +2,7 @@
 alias: nia9nushae
 path: /docs/reference/simple-api/queries
 layout: REFERENCE
+shorttitle: Queries
 description: A GraphQL query is used to fetch data from a GraphQL endpoint.
 simple_relay_twin: oiviev0xi7
 tags:
