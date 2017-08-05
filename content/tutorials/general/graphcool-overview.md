@@ -135,8 +135,7 @@ Graphcool also provides built-in support for [GraphQL Susbcriptions](!alias-aip7
 
 Privacy and data protection are of immense importance in today's applications. With Graphcool, both are trivial to achieve!
 
-Authentication can be implemented using different [authentication providers](!alias-seimeish6e) such as [Auth0](!alias-naed3eecie) for social logins, [Digits](alias-iaxohpee8o) for phone-based authentication as well as [email-and-password based](fiayee5voh) and
-[anonymous](!alias-ieph6iujah) authentication.
+Authentication can be implemented using the [custom authentication](!alias-seimeish6e) feature. This allows you to integrate with services like Auth0 or Firebase Auth, Social Login providers like Google or Facebook, and any other OAuth provider. The [functions collection on GitHub](https://github.com/graphcool-examples/functions) contain many examples for custom authentication, check it out!
 
 > Take a tour of the Graphcool permission system with this [video](https://www.youtube.com/watch?v=l1KEssmlhPA).
 
@@ -171,8 +170,7 @@ Graphcool also integrates directly with 3rd party services like [Algolia](https:
 
 Taking [Algolia Search](!alias-emaig4uiki) as an example, you can comfortably configure your search indices directly in the Graphcool Console and provide powerful search features to the users of your app!
 
-We have great plans to make it even easier to integrate with 3rd party services in the future, stay tuned!
-
+Using [Graphcool Functions](!alias-boo6uteemo) you can integrate with any third-pary service.
 
 ## Summary
 

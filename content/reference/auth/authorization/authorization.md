@@ -9,13 +9,13 @@ tags:
 related:
   further:
     - uh8shohxie
-    - eixu9osueb
+    - geekae9gah
   more:
 ---
 
 # Authorization
 
-Graphcool features a simple yet powerful permission system that integrates seamlessly with the available [authentication providers](!alias-seimeish6e#authentication-providers).
+Graphcool features a simple yet powerful permission system that integrates seamlessly with the available [authentication concept](!alias-geekae9gah).
 
 > For a better getting started experience, every new Graphcool project is prepopulated with permissions that allow all operations. **Make sure to adjust the permission setup before your app goes to production**.
 

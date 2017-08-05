@@ -15,11 +15,11 @@ related:
     - he6jaicha8
 ---
 
-# Schema
+# Data Schema
 
-The GraphQL schema of a project can be described in [IDL syntax](!alias-kr84dktnp0) and is usually managed using [schema files](!alias-aeph6oyeez). **The schema directly influences the available operations in the client APIs**.
+The data schema of a project can be described in [SDL syntax](!alias-kr84dktnp0) and is usually managed using [schema files](!alias-ow2yei7mew). **The schema directly influences the available operations in the client APIs**.
 
-GraphQL schemas are typically saved as `.graphql` files. This is an example schema file, `schema.graphql`:
+Data schemas are typically saved as `.graphql` files. This is an example schema file, `schema.graphql`:
 
 ```graphql
 type Tweet {
@@ -39,11 +39,11 @@ type User {
 }
 ```
 
-The schema file follows the [IDL syntax](!alias-kr84dktnp0) and consists of different elements.
+The schema file follows the [SDL syntax](!alias-kr84dktnp0) and consists of different elements.
 
-## Building blocks of a GraphQL Schema
+## Building blocks of the Data Schema
 
-There are several available building blocks to shape your GraphQL schema.
+There are several available building blocks to shape your data schema.
 
 * [Types](!alias-ij2choozae) consist of multiple [fields](!alias-teizeit5se) and are used to group similar entities together.
 * [Relations](!alias-goh5uthoc1) describe interactions between types.

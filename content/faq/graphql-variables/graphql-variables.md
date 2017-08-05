@@ -291,7 +291,7 @@ mutation createMovie($releaseDate: DateTime!, $title: String!) {
 }
 ```
 
-However, using a GraphQL client (and not the Playground), we can save this additional escaping step. For example, with [`graphql-request`](), we can run
+However, using a GraphQL client (and not the Playground), we can save this additional escaping step. For example, with [`graphql-request`](https://github.com/graphcool/graphql-request), we can run
 
 ```js
 const query = `mutation createMovie($releaseDate: DateTime!, $title: String!) {

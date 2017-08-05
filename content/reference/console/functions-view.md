@@ -28,7 +28,7 @@ All your functions are listed in the Functions View. Here you can see several in
 
 ## Working with functions
 
-* To create a new function, choose a name and event type and select one of the available triggers for the selected event type. You will be guided through the process of either entering an [inline or remote function](!alias-boo6uteemo#function-runtime).
+* To create a new function, choose a name and event type and select one of the available triggers for the selected event type. You will be guided through the process of either entering an [inline or remote function](!alias-hohl0iy1ji).
 
 * To change the code for a function or delete it all together, you can open the function popup by selecting the function in the list.
 

@@ -2,9 +2,10 @@
 alias: seimeish6e
 path: /docs/reference/integrations/overview
 layout: REFERENCE
-description: Graphcool integrates seamlessly with external services like Auth0 and Algolia. For even more flexibility you can use mutation callbacks.
+description: You can integrate seamlessly with external services using Graphcool Function.
 tags:
   - integrations
+  - functions
 related:
   further:
   more:
@@ -12,18 +13,11 @@ related:
 
 # Integrations
 
-Graphcool integrates with different external services that can be configured in the [Integration View](!alias-uh8shohxie) of your project.
+Graphcool allows the integration with different external services using [Graphcool Functions](!alias-boo6uteemo).
 
-## Authentication Providers
+## Custom Authentication
 
-Authentication is enabled by means of so called **authentication providers**. All authentication providers integrate seamlessly with the built-in [permission system](!alias-iegoo0heez).
-
-* [Auth0](!alias-naed3eecie) offers authentication with popular social logins like Facebook, Google, Twitter or other methods like Passwordless.
-* [Digits](!alias-iaxohpee8o) authenticates users with a passwordless SMS confirmation code, which they enter into your app to confirm their identity.
-* The built-in [Email-Password authentication](!alias-fiayee5voh) is a simple alternative to third-party authentication providers.
-* With the built-in [Anonymous authentication](!alias-ieph6iujah), users are identified with a unique secret instead of authentication credentials.
-
-> Multiple auth providers can be enabled at the same time, but a single user can only authenticate with one authentication provider that is determined upon user signup.
+Custom authentication workflows can be built using [Schema Extensions](!alias-xohbu7uf2e). The [Graphcool Functions collection](https://github.com/graphcool-examples/functions/) contains a list of examples, but **you should be able to use schema extensions to integrate with pretty much any authentication method**.
 
 ## Full text search with Algolia
 

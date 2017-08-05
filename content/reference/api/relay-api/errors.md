@@ -80,6 +80,20 @@ Here is an overview of possible errors that you might encounter:
 
 **Code 3025: Auth0IdTokenIsInvalid**
 
+**Code 3026: InvalidFirstArgument**
+
+**Code 3027: InvalidLastArgument**
+
+**Code 3028: InvalidSkipArgument**
+
+**Code 3031: GenericServerlessFunctionError**
+
+**Code 3032: RelationIsRequired**
+
+**Code 3033: FilterCannotBeNullOnToManyField**
+
+**Code 3034: UnhandledFunctionError**
+
 > For example, when you try to update a post but specify a non-existing id:
 
 ```graphql
@@ -124,6 +138,8 @@ mutation {
 
 **Internal Server Errors**
 
-*Internal server errors* indicate that something went wrong with our service - whoops! Find us at our [Slack channel](http://slack.graph.cool) so we can help you out and fix the issue.
+*Internal server errors* indicate that something went wrong with our service - whoops! Please contact us from the Console (https://console.graph.cool) or [via email](mailto:support@graph.cool) and include your Request ID so we can help you out and fix the issue.
 
-You do not have to investigate this issue further in your client application.
+## Function Errors
+
+Graphcool Functions offer their own [error handling](!alias-quawa7aed0) concept that allows you to return user-friendly error messages from within a function.

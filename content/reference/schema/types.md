@@ -21,7 +21,7 @@ A *GraphQL type* defines the structure for a certain type of your data. If you a
 
 An instantiation of a type is called a *node*. The collection of all nodes is what you would refer to as "your data". The term node refers to a node inside your data graph.
 
-Every type you define will be available as a type in your GraphQL schema. A common notation to quickly describe a type is the [GraphQL SDL (schema definition language)](!alias-kr84dktnp0) (interface definition language).
+Every type you define will be available as a type in your GraphQL schema. A common notation to quickly describe a type is the [GraphQL SDL (schema definition language)](!alias-kr84dktnp0).
 
 ## GraphQL Types in the Data Schema
 
@@ -45,4 +45,8 @@ type Author {
 
 ## Generated Operations Based On Types
 
-The types that are included in your schema influence the available [queries](!alias-nia9nushae), [mutations](!alias-ol0yuoz6go) and [subscriptions](!alias-ol0yuoz6go).
+The types that are included in your schema effect the available operations in the [GraphQL API](!alias-heshoov3ai). For every type,
+
+* [type queries](!alias-chuilei3ce) allow you to fetch one or many nodes of that type
+* [type mutations](!alias-eamaiva5yu) allow you to create, update or delete nodes of that type
+* [type subscriptions](!alias-ohc0oorahn) allow you to get notified of changes to nodes of that type

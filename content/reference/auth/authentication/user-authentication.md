@@ -16,7 +16,7 @@ related:
 
 ## Signup
 
-Depending on the enabled [authentication providers](!alias-seimeish6e#authentication-providers) you can use different versions of the `createUser` mutation to create and sign up a new user at the same time.
+To signup a user, you can use the `createUser` mutation. For a signed up user, you can generate an according authentication token using [`graphcool-lib`](!alias-kaegh4oomu) on the server-side.
 
 To allow the creation of new user accounts to everyone, you need to setup your [permissions](!alias-iegoo0heez) so that `EVERYONE` can call the `createUser` mutation. Make sure to only return data in the `createUser` [mutation payload](!alias-gahth9quoo) that `EVERYONE` can access as well.
 
