@@ -42,7 +42,7 @@ Now you can use Apollo to do queries and mutations. If you are unsure about the 
 
 ## graphql-request
 
-[`graphql-=request`](https://github.com/graphcool/graphql-request) is a minimal GraphQL client supporting Node and browsers for server-side scripts or simple applications.
+[`graphql-request`](https://github.com/graphcool/graphql-request) is a minimal GraphQL client supporting Node and browsers for server-side scripts or simple applications.
 
 ### Usage
 
