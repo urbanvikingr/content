@@ -163,6 +163,9 @@ A big thank you to all contributors and supporters of this repository 💚
 <a href="https://github.com/fvieira/" target="_blank">
   <img src="https://github.com/fvieira.png?size=64" width="64" height="64" alt="fvieira">
 </a>
+<a href="https://github.com/Huvik/" target="_blank">
+  <img src="https://github.com/Huvik.png?size=64" width="64" height="64" alt="Huvik">
+</a>
 
 ## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
 
