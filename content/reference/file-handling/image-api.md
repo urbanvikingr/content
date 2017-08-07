@@ -35,9 +35,24 @@ https://images.graph.cool/v1/__PROJECT_ID__/__FILE_SECRET__/
 
 > Cropping starts from left-top corner
 
-### Resizing and Cropping
+### Name
 
-`https://images.graph.cool/v1/__PROJECT_ID__/__FILE_SECRET__/0x0:400x400/250x250`: Crops the image taking the first 400x400 square and fit into 250px x 250px rectangle
+`https://images.graph.cool/v1/__PROJECT_ID__/__FILE_SECRET__/__IMAGE_NAME__.__EXTENSION__`: Name of image in URL to improve SEO
+`https://images.graph.cool/v1/__PROJECT_ID__/__FILE_SECRET__/Graphcool.jpg`: Get image with name Graphcool.jpg 
+
+Supported extensions: 
+
+* png
+* jpg
+* jpeg
+* svg
+* gif
+* bmp
+* webp
+
+### Resizing, Cropping and Naming
+
+`https://images.graph.cool/v1/__PROJECT_ID__/__FILE_SECRET__/0x0:400x400/250x250/Graphcool.jpg`: Crops the image taking the first 400x400 square and fit into 250px x 250px rectangle and rename it to Graphcool.jpg
 
 > Images are cropped before being resized.
 
