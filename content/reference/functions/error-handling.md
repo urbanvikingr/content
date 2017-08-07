@@ -74,12 +74,10 @@ Then the response to the request that resulted in that error will include the `e
       "code": 5002,
       "message": "Function execution error",
       "functionError": {
-        "error": {
-          "code": 42,
-          "message": "Invalid email!",
-          "debugMessage": "We should add validation in the frontend as well!",
-          "userFacingMessage": "Please supply a valid email address!"
-        }
+        "code": 42,
+        "message": "Invalid email!",
+        "debugMessage": "We should add validation in the frontend as well!",
+        "userFacingMessage": "Please supply a valid email address!"
       }
     }
   ]
