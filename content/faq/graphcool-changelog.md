@@ -15,6 +15,37 @@ related:
 
 # Changelog
 
+## Week 30/31 (July 24 - August 8)
+
+* [API](!alias-heshoov3ai)
+
+  * Setting required fields with a default value to `null` in a create or update mutation does not result in an internal server error anymore. Instead, the default value is used.
+
+* [Schema Extensions](!alias-xohbu7uf2e)
+
+  Thanks to all the beta tester for [the great feedback](https://www.graph.cool/forum/t/feedback-schema-extensions-beta/405/3?u=nilan) for Schema Extensions! These issues could be fixed:
+
+  * Scalar lists can now be returned from a schema extension function.
+  * Badly shaped return values are now handled gracefully and a helpful error message is returned.
+  * URL validation for [webhook functions](!alias-hohl0iy1ji) is improved and helpful errors messages are returned.
+
+* [Subscriptions](!alias-aip7oojeiv)
+
+  You can now also use the connection parameter `authorization` (lower case) in your subscription client to authenticate subscription requests.
+
+* Resources and Community Contributions
+
+  * We released [Chromeless](https://github.com/graphcool/chromeless/), a tool for Chrome automation, on GitHub and were featured on [Product Hunt](https://www.producthunt.com/posts/chromeless) and the [Hacker News Frontpage](https://news.ycombinator.com/item?id=14859084) 🎉 Thanks a lot for the great reception and feedback!
+  * Two chapters were added to How to GraphQL: [Subscriptions with Relay](https://www.howtographql.com/react-relay/7-subscriptions/) and [Pagination with Relay](https://www.howtographql.com/react-relay/8-pagination/).
+  * Thanks a lot to [@picosam](https://github.com/picosam), [@kbrandwijk](https://github.com/kbrandwijk), [@heymartinadams](https://github.com/heymartinadams), [@mwickett](https://github.com/mwickett), [@aurnik](https://github.com/aurnik) for contributing examples for
+    * [Stripe Connect](https://github.com/graphcool-examples/functions/pull/36)
+    * [Stripe one time charge](https://github.com/graphcool-examples/functions/pull/44)
+    * [address lookup for Dutch addresses](https://github.com/graphcool-examples/functions/pull/37)
+    * [reset password workflow](https://github.com/graphcool-examples/functions/pull/41)
+    * [AccountKit](https://github.com/graphcool-examples/functions/pull/45)
+    * [Open Weather Map API wrapper](https://github.com/graphcool-examples/functions/pull/51)
+    * [Everypixel file proxy](https://github.com/graphcool-examples/functions/pull/53)
+
 ## Week 29 (July 17 - July 23)
 
 * [Subscriptions](!alias-aip7oojeiv)
