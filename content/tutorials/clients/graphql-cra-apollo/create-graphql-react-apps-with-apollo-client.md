@@ -222,7 +222,7 @@ export default Post
 
 #### Setting up React Router and Apollo Client
 
-First, add these styles in `src/index.ccs`:
+First, add these styles in `src/index.css`:
 
 ```js
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
