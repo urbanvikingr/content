@@ -28,7 +28,12 @@ related:
   * Scalar lists can now be returned from a schema extension function.
   * Badly shaped return values are now handled gracefully and a helpful error message is returned.
   * URL validation for [webhook functions](!alias-hohl0iy1ji) is improved and helpful errors messages are returned.
+  * Passing in or returning optional values now works correctly.
   * Disabling schema extensions works now as expected.
+
+* [Migrations](!alias-paesahku9t)
+
+  We fixed a few edge cases surrounding migration and default values for list fields.
 
 * [Subscriptions](!alias-aip7oojeiv)
 
