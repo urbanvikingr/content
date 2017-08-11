@@ -169,6 +169,9 @@ A big thank you to all contributors and supporters of this repository 💚
 <a href="https://github.com/toonitw/" target="_blank">
   <img src="https://github.com/toonitw.png?size=64" width="64" height="64" alt="toonitw">
 </a>
+<a href="https://github.com/bestan/" target="_blank">
+  <img src="https://github.com/bestan.png?size=64" width="64" height="64" alt="bestan">
+</a>
 
 ## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
 
