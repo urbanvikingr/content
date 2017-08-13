@@ -172,6 +172,9 @@ A big thank you to all contributors and supporters of this repository 💚
 <a href="https://github.com/bestan/" target="_blank">
   <img src="https://github.com/bestan.png?size=64" width="64" height="64" alt="bestan">
 </a>
+<a href="https://github.com/gragland/" target="_blank">
+  <img src="https://github.com/gragland.png?size=64" width="64" height="64" alt="gragland">
+</a>
 
 ## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
 
