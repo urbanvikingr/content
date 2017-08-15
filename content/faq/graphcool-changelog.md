@@ -152,7 +152,7 @@ related:
 * A lot of useful resources have been added this week by our great community! 🎉
   * The [functions repository](https://github.com/graphcool-examples/functions) now contains example Graphcool Functions for sending an email with SendGrid, image transformations with Cloudinary, using the Google Geocode API to address information and a small Stripe integration that is setup with Webpack and Babel to allow ES6 and async/await capabilities. Special thanks to the contributing members of the community [@heymartinadams](https://github.com/heymartinadams), [@kuldarkalvik](https://github.com/kuldarkalvik) and [@yusinto](https://github.com/yusinto). ⚡️
   * In this week's [Graphcool Webinar](https://www.youtube.com/watch?v=MT2czo5U7x4), Hackages present an app that they are preparing for a workshop.
-  * The [latest tutorial on Relay Modern](!alias-ujaesaen0s) gives insights into the @connection directive that's now needed when querying lists with Relay.
+  * The [latest tutorial on Relay Modern](https://blog.graph.cool/relay-moderns-connection-directive-1ecd8322f5c8) gives insights into the @connection directive that's now needed when querying lists with Relay.
 
 ## Week 23 (June 5 - June 11)
 
