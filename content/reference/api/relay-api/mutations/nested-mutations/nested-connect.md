@@ -15,7 +15,6 @@ related:
   more:
     - cahzai2eur
     - dah6aifoce
-    - vietahx7ih
 ---
 
 # Nested Connect Mutations
