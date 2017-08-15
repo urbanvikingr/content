@@ -182,7 +182,7 @@ related:
 
 ## Week 20 (May 15 - May 21)
 
-- We **launched officially** and were featured on [Product Hunt](https://www.producthunt.com/posts/graphcool-2) and reached first spot on the [Hacker News](https://news.ycombinator.com/item?id=14350129) frontpage 🎉 We published an article [about the Serverless GraphQL Backend Architecture](!alias-ahde7paig2/) and rolled out the [CLI and Functions](!alias-teko4ab8za).
+- We **launched officially** and were featured on [Product Hunt](https://www.producthunt.com/posts/graphcool-2) and reached first spot on the [Hacker News](https://news.ycombinator.com/item?id=14350129) frontpage 🎉 We published an article [about the Serverless GraphQL Backend Architecture](https://blog.graph.cool/introducing-the-serverless-graphql-backend-architecture-e8b4df6d700b) and rolled out the [CLI and Functions](https://blog.graph.cool/introducing-functions-graphcool-cli-cca1d4e21af4).
 - As part of the launch, the homepage and documentation received a lot of love and should feel way smoother now.
 - We fixed issues with the [Algolia Integration](!alias-emaig4uiki) regarding nested nodes, made a lot of smaller improvements to the UX of the Console and fixed a bug that would apply too restrictive permissions for some mutations.
 - On May 21th, we're hosting [GraphQL Europe](https://graphql-europe.org), the first GraphQL conference in Europe.

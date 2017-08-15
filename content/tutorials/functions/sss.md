@@ -13,7 +13,6 @@ related:
   further:
     - pa6guruhaf
     - ahlohd8ohn
-    - teko4ab8za
 ---
 
 
