@@ -163,7 +163,7 @@ related:
   - Functions now work correctly when triggered by a nested mutation
   - `PRE_WRITE` functions in the [request pipeline](!alias-pa6guruhaf) now receive the transformed output if a `TRANSFORM_ARGUMENT` function exists
 - The `Select User` feature in the [Graphcool Playground](!alias-oe1ier4iej) now works with [GraphQL Subscriptions](!alias-aip7oojeiv) as expected.
-- The [Getting Started with Relay](!alias-woodito7ug) tutorial and video guide have been released!
+- The [Getting Started with Relay Modern](https://blog.graph.cool/getting-started-with-relay-modern-46f8de6bd6ec) tutorial and video guide have been released!
 - The project settings, Algolia integration, different popups and more in the [Graphcool Console](https://console.graph.cool) received a lot of UI and UX improvements for Chrome, Safari and Firefox.
 
 ## Week 22 (May 29 - June 4)
