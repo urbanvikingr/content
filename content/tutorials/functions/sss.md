@@ -10,7 +10,6 @@ tags:
   - server-side-subscriptions
 related:
   more:
-    - iechu0shia
   further:
     - pa6guruhaf
     - ahlohd8ohn
