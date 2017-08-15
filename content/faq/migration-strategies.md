@@ -32,7 +32,7 @@ GraphQL is an [open specification](https://facebook.github.io/graphql/) with a v
 
 While we are actively fostering the open source community with projects like [Learn Apollo](https://learnapollo.com) and [Learn Relay](https://learnrelay.org), the clients as well as surrounding support will be available to you whether you use Graphcool or not.
 
-On top of that, our platform integrates nicely with different state-of-the-art solutions. For example, you can manage [authentication with Auth0 and Digits](!alias-thoh9chaek), handle [payment workflows through Stripe](!alias-soiyaquah7) or rely on [Algolia for Search](!alias-aroozee9zu). We encourage you to implement your business logic workflows with serverless solutions such as [AWS Lambda](https://aws.amazon.com/lambda).
+On top of that, our platform integrates nicely with different state-of-the-art solutions. For example, you can manage authentication with Auth0 and Digits, handle [payment workflows through Stripe](!alias-soiyaquah7) or rely on [Algolia for Search](!alias-aroozee9zu). We encourage you to implement your business logic workflows with serverless solutions such as [AWS Lambda](https://aws.amazon.com/lambda).
 
 In combination, this means that **migrating your project to an alternate solution** is much simpler than previously possible, because **your core product is decoupled from the backend implementation**. This is only really possible due to the paradigm shifts that GraphQL and Serverless have brought to the table in recent years.
 

@@ -19,7 +19,6 @@ related:
   more:
     - quohtu9soo
     - oopheesaj9
-    - thoh9chaek
 ---
 
 # User Authentication with Auth0 for React and Apollo

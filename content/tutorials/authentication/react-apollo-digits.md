@@ -19,7 +19,6 @@ related:
   more:
     - pheiph4ooj
     - oopheesaj9
-    - thoh9chaek
 ---
 
 # User Authentication with Digits for React and Apollo

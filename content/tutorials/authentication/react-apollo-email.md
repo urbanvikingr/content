@@ -19,7 +19,6 @@ related:
   more:
     - pheiph4ooj
     - quohtu9soo
-    - thoh9chaek
 ---
 
 # User Authentication with Email for React and Apollo

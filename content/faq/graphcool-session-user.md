@@ -17,7 +17,6 @@ related:
     - geekae9gah
   more:
     - pheiph4ooj
-    - thoh9chaek
 ---
 
 
