@@ -17,7 +17,6 @@ related:
     - ahwoh2fohj
     - goh5uthoc1
   more:
-    - ahsoow1ool
 ---
 
 # How to choose the correct relation?

@@ -11,7 +11,6 @@ related:
     - kie1quohli
   more:
     - ga2ahnee2a
-    - ahsoow1ool
     - he6jaicha8
 ---
 
