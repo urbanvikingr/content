@@ -271,7 +271,7 @@ mutation createMoonlight($releaseDate: DateTime!, $title: String!, $actors: [Mov
 }
 ```
 
-## Using GraphQL Variales for String Escaping
+## Using GraphQL Variables for String Escaping
 
 GraphQL variables are great to save cumbersome String interpolaton and escaping. In the Playground, we actually need to escape the double quotes in the movie title:
 
@@ -286,7 +286,7 @@ mutation createMovie($releaseDate: DateTime!, $title: String!) {
 }
 ---
 {
-  "title": "The \"Real" Question",
+  "title": "The \"Real\" Question",
   "releaseDate": "2017-06-13"
 }
 ```
