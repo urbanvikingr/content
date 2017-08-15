@@ -18,7 +18,6 @@ related:
     - riekooth4o
   more:
     - cahzai2eur
-    - tioghei9go
 ---
 
 # Fetch Multiple Nodes in the Relay API

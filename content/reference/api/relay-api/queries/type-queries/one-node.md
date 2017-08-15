@@ -17,7 +17,6 @@ related:
     - thaiph8ung
   more:
     - cahzai2eur
-    - tioghei9go
     - ier7sa3eep
 ---
 
