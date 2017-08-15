@@ -385,4 +385,4 @@ Make sure to try things that shouldn't be allowed, like visiting the `/create` r
 
 Great, you set up everything that's needed for authentication in your Graphcool project, built a React application that uses Apollo to let user sign up or login and let them see or create posts.
 
-Have a look at other [advanced features](!alias-ped6wohw0o).
+Have a look at other [advanced features](https://blog.graph.cool/exploring-graphcool-the-serverless-graphql-backend-50637f7e5921).
