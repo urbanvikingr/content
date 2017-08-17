@@ -12,7 +12,6 @@ related:
     - heshoov3ai
     - koo4eevun4
   more:
-    - aing7uech3
     - ahfah0joo1
 ---
 

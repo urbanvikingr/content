@@ -18,7 +18,6 @@ related:
   more:
     - cahzai2eur
     - dah6aifoce
-    - vietahx7ih
 ---
 
 # Nested Mutations in the Simple API

@@ -166,6 +166,21 @@ A big thank you to all contributors and supporters of this repository 💚
 <a href="https://github.com/Huvik/" target="_blank">
   <img src="https://github.com/Huvik.png?size=64" width="64" height="64" alt="Huvik">
 </a>
+<a href="https://github.com/toonitw/" target="_blank">
+  <img src="https://github.com/toonitw.png?size=64" width="64" height="64" alt="toonitw">
+</a>
+<a href="https://github.com/bestan/" target="_blank">
+  <img src="https://github.com/bestan.png?size=64" width="64" height="64" alt="bestan">
+</a>
+<a href="https://github.com/gragland/" target="_blank">
+  <img src="https://github.com/gragland.png?size=64" width="64" height="64" alt="gragland">
+</a>
+<a href="https://github.com/vinaypuppal/" target="_blank">
+  <img src="https://github.com/vinaypuppal.png?size=64" width="64" height="64" alt="vinaypuppal">
+</a>
+<a href="https://github.com/do4gr/" target="_blank">
+  <img src="https://github.com/do4gr.png?size=64" width="64" height="64" alt="do4gr">
+</a>
 
 ## Help & Community [![Slack Status](https://slack.graph.cool/badge.svg)](https://slack.graph.cool)
 

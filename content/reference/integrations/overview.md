@@ -27,9 +27,9 @@ Custom authentication workflows can be built using [Schema Extensions](!alias-xo
 
 [Functions](!alias-boo6uteemo) can be used to integrate with any service that you like. Some examples are available in the public [Graphcool Functions collection](https://github.com/graphcool-examples/functions):
 
-* Stripe: [create Stripe customers](https://github.com/graphcool-examples/functions/tree/master/stripe-create-customer) and [setup Stripe Subscriptions and Coupons](https://github.com/graphcool-examples/functions/tree/master/stripe-coupons).
-* SendGrid: [Send an email using SendGrid](https://github.com/graphcool-examples/functions/tree/master/sendgrid-email).
-* Slack: [Send Slack Notifications with Slack Bot](https://github.com/graphcool-examples/functions/tree/master/slack-bot-notifications).
-* OneSignal: [Send a Push Notification with OneSignal](https://github.com/graphcool-examples/functions/tree/master/one-signal).
-* Google Geocoding: [Fetch missing geo-data for an address with the Google Geocoding API](https://github.com/graphcool-examples/functions/tree/master/google-geocoding).
-* Cloudinary: [Upload and transform an image using Cloudinary](https://github.com/graphcool-examples/functions/tree/master/cloudinary-images).
+* [Stripe](https://github.com/graphcool-examples/functions/tree/master/payment): create Stripe customers and setup Stripe Subscriptions and Coupons.
+* [SendGrid](https://github.com/graphcool-examples/functions/tree/master/emails-and-notifications): Send an email using SendGrid.
+* [Slack](https://github.com/graphcool-examples/functions/tree/master/emails-and-notifications): Send Slack Notifications with Slack Bot.
+* [OneSignal](https://github.com/graphcool-examples/functions/tree/master/emails-and-notifications): Send a Push Notification with OneSignal.
+* [Google Geocoding](https://github.com/graphcool-examples/functions/tree/master/directions-and-geocoding): Fetch missing geo-data for an address with the Google Geocoding API.
+* [Cloudinary](https://github.com/graphcool-examples/functions/tree/master/file-handling): Upload and transform an image using Cloudinary.

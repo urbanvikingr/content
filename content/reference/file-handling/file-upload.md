@@ -52,3 +52,7 @@ This updates the local file `example.png` with the new name `myname.png`. The re
 ## File Upload and Permissions
 
 File uploads using the File API are not governed by the permissions on the `File` type. As such, everyone can upload files to your project. Please reach out in the [Forum](https://graph.cool/forum) or [Slack](https://slack.graph.cool) if you have any questions about this.
+
+## Current Limitations
+
+* You can't upload files when you defined a required field on the `File` type.

@@ -164,6 +164,6 @@ Note: If you query more nodes than exist, your response will simply contain all 
 
 ## Limitations
 
-Note that **a maximum of 1000 nodes* can be returned per pagination field. If you need to query more nodes than that, you can use `first` and `skip` to seek through the different pages. You can also include [multiple versions of the same field with different pagination parameters](!alias-cahzai2eur) in one query using GraphQL Aliases.
+Note that *a maximum of 1000 nodes* can be returned per pagination field. If you need to query more nodes than that, you can use `first` and `skip` to seek through the different pages. You can also include [multiple versions of the same field with different pagination parameters](!alias-cahzai2eur) in one query using GraphQL Aliases.
 
 Please join [the discussion on GitHub](https://github.com/graphcool/feature-requests/issues/259) for an according feature request to lift this limitation.

@@ -18,7 +18,6 @@ related:
     - ojie8dohju
   more:
     - cahzai2eur
-    - tioghei9go
 ---
 
 # Fetch Multiple Nodes in the Simple API

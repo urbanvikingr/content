@@ -8,7 +8,6 @@ tags:
   - freecom
 related:
   more:
-    - iechu0shia
   further:
     - xuakjj68lp
     - oe8ahyo2ei
@@ -66,7 +65,7 @@ The [_3rd chapter_](!alias-die6mewitu) is all about bringing **realtime function
 
 In the [_4th chapter_](!alias-pei9aid6ei), we'll use the [**permission system**](!alias-iegoo0heez/) to make sure customers can only ever view their own messages. Watch the [video](https://www.youtube.com/watch?v=RHI1affZAvM).
 
-Our support chat will enable the support agents to chat with customers through [Slack](https://slack.com/). In the [_5th chapter_](!alias-wohfoa8ahz), we'll therefore explain how to use **[serverless functions](!alias-teko4ab8za)** to integrate with the Slack API. Watch the [video](https://www.youtube.com/watch?v=CNAtCbTjfT8).
+Our support chat will enable the support agents to chat with customers through [Slack](https://slack.com/). In the [_5th chapter_](!alias-wohfoa8ahz), we'll therefore explain how to use **[serverless functions](https://blog.graph.cool/introducing-functions-graphcool-cli-cca1d4e21af4)** to integrate with the Slack API. Watch the [video](https://www.youtube.com/watch?v=CNAtCbTjfT8).
 
 Finally, in the _6th chapter_, we are going to cover how to **[upload files](!alias-eer4wiang0/)** and do proper file management in a Graphcool backend.
 

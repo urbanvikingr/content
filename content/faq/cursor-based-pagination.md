@@ -15,7 +15,6 @@ related:
     - ojie8dohju
   more:
     - cae2ahz0ne
-    - aing7uech3
 ---
 
 # Cursor-based Pagination with GraphQL

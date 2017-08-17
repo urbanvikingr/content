@@ -18,7 +18,6 @@ related:
   more:
   - taith2va1l
   - ga2ahnee2a
-  - ligh7fmn38
   - uu2xighaef
 ---
 
@@ -144,4 +143,4 @@ However, unlike queries, *multiple mutations are executed sequentially*. That me
 
 # Resources
 
-You can use this mechanism to batch queries, such as with the [batchql library](https://github.com/matthiasak/batchql) that wraps GraphQL queries with ES6 promises. It batches queries that are sent from different parts of the application and makes sure that the responses are mapped correctly to the different queries. Apollo Client uses [a similar mechanism](!alias-ligh7fmn38).
+You can use this mechanism to batch queries, such as with the [batchql library](https://github.com/matthiasak/batchql) that wraps GraphQL queries with ES6 promises. It batches queries that are sent from different parts of the application and makes sure that the responses are mapped correctly to the different queries. Apollo Client uses [a similar mechanism](https://blog.graph.cool/improving-performance-with-apollo-query-batching-66455ea9d8bc).

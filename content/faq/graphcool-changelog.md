@@ -28,7 +28,12 @@ related:
   * Scalar lists can now be returned from a schema extension function.
   * Badly shaped return values are now handled gracefully and a helpful error message is returned.
   * URL validation for [webhook functions](!alias-hohl0iy1ji) is improved and helpful errors messages are returned.
+  * Passing in or returning optional values now works correctly.
   * Disabling schema extensions works now as expected.
+
+* [Migrations](!alias-paesahku9t)
+
+  We fixed a few edge cases surrounding migration and default values for list fields.
 
 * [Subscriptions](!alias-aip7oojeiv)
 
@@ -135,7 +140,7 @@ related:
 
 ## Week 25 (June 19 - June 25)
 
-* Graphcool [now runs in multiple regions](!alias-she7yaab6l) and performance improvements reduced response times by 80ms on average! 🏇
+* Graphcool [now runs in multiple regions](https://blog.graph.cool/new-regions-and-improved-performance-7bbc0a35c880) and performance improvements reduced response times by 80ms on average! 🏇
 * We fixed a problem with [the File API](!alias-eer4wiang0) when renaming files.
 * We added a [description of all available filter options](!alias-aephaimu5n#explore-available-filter-criteria) to the GraphQL schema of the GraphQL APIs.
 
@@ -147,7 +152,7 @@ related:
 * A lot of useful resources have been added this week by our great community! 🎉
   * The [functions repository](https://github.com/graphcool-examples/functions) now contains example Graphcool Functions for sending an email with SendGrid, image transformations with Cloudinary, using the Google Geocode API to address information and a small Stripe integration that is setup with Webpack and Babel to allow ES6 and async/await capabilities. Special thanks to the contributing members of the community [@heymartinadams](https://github.com/heymartinadams), [@kuldarkalvik](https://github.com/kuldarkalvik) and [@yusinto](https://github.com/yusinto). ⚡️
   * In this week's [Graphcool Webinar](https://www.youtube.com/watch?v=MT2czo5U7x4), Hackages present an app that they are preparing for a workshop.
-  * The [latest tutorial on Relay Modern](!alias-ujaesaen0s) gives insights into the @connection directive that's now needed when querying lists with Relay.
+  * The [latest tutorial on Relay Modern](https://blog.graph.cool/relay-moderns-connection-directive-1ecd8322f5c8) gives insights into the @connection directive that's now needed when querying lists with Relay.
 
 ## Week 23 (June 5 - June 11)
 
@@ -158,7 +163,7 @@ related:
   - Functions now work correctly when triggered by a nested mutation
   - `PRE_WRITE` functions in the [request pipeline](!alias-pa6guruhaf) now receive the transformed output if a `TRANSFORM_ARGUMENT` function exists
 - The `Select User` feature in the [Graphcool Playground](!alias-oe1ier4iej) now works with [GraphQL Subscriptions](!alias-aip7oojeiv) as expected.
-- The [Getting Started with Relay](!alias-woodito7ug) tutorial and video guide have been released!
+- The [Getting Started with Relay Modern](https://blog.graph.cool/getting-started-with-relay-modern-46f8de6bd6ec) tutorial and video guide have been released!
 - The project settings, Algolia integration, different popups and more in the [Graphcool Console](https://console.graph.cool) received a lot of UI and UX improvements for Chrome, Safari and Firefox.
 
 ## Week 22 (May 29 - June 4)
@@ -177,7 +182,7 @@ related:
 
 ## Week 20 (May 15 - May 21)
 
-- We **launched officially** and were featured on [Product Hunt](https://www.producthunt.com/posts/graphcool-2) and reached first spot on the [Hacker News](https://news.ycombinator.com/item?id=14350129) frontpage 🎉 We published an article [about the Serverless GraphQL Backend Architecture](!alias-ahde7paig2/) and rolled out the [CLI and Functions](!alias-teko4ab8za).
+- We **launched officially** and were featured on [Product Hunt](https://www.producthunt.com/posts/graphcool-2) and reached first spot on the [Hacker News](https://news.ycombinator.com/item?id=14350129) frontpage 🎉 We published an article [about the Serverless GraphQL Backend Architecture](https://blog.graph.cool/introducing-the-serverless-graphql-backend-architecture-e8b4df6d700b) and rolled out the [CLI and Functions](https://blog.graph.cool/introducing-functions-graphcool-cli-cca1d4e21af4).
 - As part of the launch, the homepage and documentation received a lot of love and should feel way smoother now.
 - We fixed issues with the [Algolia Integration](!alias-emaig4uiki) regarding nested nodes, made a lot of smaller improvements to the UX of the Console and fixed a bug that would apply too restrictive permissions for some mutations.
 - On May 21th, we're hosting [GraphQL Europe](https://graphql-europe.org), the first GraphQL conference in Europe.
