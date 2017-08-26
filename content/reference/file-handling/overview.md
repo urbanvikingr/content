@@ -23,4 +23,4 @@ Each project contains a [file type](!alias-uhieg2shio#file-type) by default that
 
 ## File Management with the Client APIs
 
-Currently, files cannot be uploaded from the [Simple API](!alias-heshoov3ai) or the [Relay API](!alias-aizoong9ah). Read [this issue on GitHub](https://github.com/apollographql/apollo/issues/65) for more information.
+Currently, files cannot be uploaded from the [Simple API](!alias-heshoov3ai) or the [Relay API](!alias-aizoong9ah). Read [this issue on GitHub](https://github.com/apollographql/apollo-client/issues/586) for more information.

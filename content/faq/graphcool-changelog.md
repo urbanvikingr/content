@@ -15,7 +15,30 @@ related:
 
 # Changelog
 
-## Week 30/31 (July 24 - August 8)
+## Week 32 - 34 (August 7 - August 27)
+
+* [API](!alias-heshoov3ai)
+
+  * Several problems with invalid [JSON fields](!alias-teizeit5se) were resolved:
+    * updating and deleting nodes that already contain invalid JSON is now supported.
+    * creating nodes with invalid JSON is rejected in all cases.
+    * querying invalid JSON returns null, resulting in the GraphQL-characteristic "null-bubbling" if the field is required.
+  * If an invalid [enum value](!alias-teizeit5se) is present in a node, querying it results in the same "null-bubbling" bevhariour. Deleting enum values in use is not possible anymore. This applies to
+    * enums still referenced by a node
+    * enums used as a default value on a field
+
+* Resources and Community Contributions
+
+  * Yet again, many function examples have been contributed! ⚡️ Thanks to [@kbrandwijk](https://github.com/kbrandwijk), [@heymartinadams](https://github.com/heymartinadams), [@peterpme](https://github.com/peterpme), [@stevewpatterson](https://github.com/stevewpatterson) and [Gregor1971](https://github.com/Gregor1971) for contributing these functions:
+    * [Firebase Authentication](https://github.com/graphcool-examples/functions/pull/66)
+    * [Confirmation Emails for the Email Authentication](https://github.com/graphcool-examples/functions/pull/73)
+    * [Password Reset Emails using AWS SES](https://github.com/graphcool-examples/functions/pull/62)
+    * [Wrapper for the TheySaidSo REST API](https://github.com/graphcool-examples/functions/pull/65)
+    * [Wrapper for the SendCloud REST API](https://github.com/graphcool-examples/functions/pull/64)
+    * [Twilio SMS Authentication](https://github.com/graphcool-examples/functions/pull/38)
+    * [Google Authenticator Authentication](https://github.com/graphcool-examples/functions/pull/35)
+
+## Week 30/31 (July 24 - August 6)
 
 * [API](!alias-heshoov3ai)
 
