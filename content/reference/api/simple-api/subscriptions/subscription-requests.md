@@ -14,7 +14,7 @@ related:
 
 # Subscription Requests
 
-When using Apollo Client, you can use `subscription-transport-ws` to combine it with a WebSocket client. [Here's an example](https://github.com/graphcool-examples/react-graphql/tree/master/subscriptions-with-apollo-instagram).
+When using Apollo Client, you can use [`subscriptions-transport-ws`](https://www.npmjs.com/package/subscriptions-transport-ws) to combine it with a WebSocket client. [Here's an example](https://github.com/graphcool-examples/react-graphql/tree/master/subscriptions-with-apollo-instagram).
 
 You can also use the GraphQL Playground or any WebSocket client as described below.
 
