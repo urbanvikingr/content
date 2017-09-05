@@ -63,9 +63,8 @@ Then the mutation can be called like this using the Simple API:
 
 ```graphql
 mutation {
-  isValidAge(age: 12) {
-    isValid # false
-    age # 12
+  randomNumber(min: 4, max: 16) {
+    number
   }
 }
 ```
