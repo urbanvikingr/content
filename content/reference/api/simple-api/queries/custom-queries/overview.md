@@ -70,4 +70,4 @@ query {
 }
 ```
 
-Note that the returned object contains a `data` key, which in turn contains the `number` field that was specified in the `RandomNumberPayload` in the SDL document. [Error handling](!alias-quawa7aed0) works similarly to other Graphcool Functions, if an object containing the `error` key is returned.
+Note that the returned object contains a `data` key, which in turn contains the `age` field that was specified in the `AgePayload` in the SDL document. [Error handling](!alias-quawa7aed0) works similarly to other Graphcool Functions, if an object containing the `error` key is returned.
