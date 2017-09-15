@@ -111,7 +111,7 @@ type Story implements Node {
 
 ## Renaming an existing relation
 
-Renaming a relation can be done by updating the existing `@relation(name: String!, oldName: String!)` directive.
+Renaming a relation can be done by updating the existing `@relation(name: String!)` directive.
 
 > Renaming a relation potentially breaks existing queries, mutations and subscriptions in your [GraphQL API](!alias-heshoov3ai). Make sure to adjust your app accordingly to the new name.
 
