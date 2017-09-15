@@ -26,6 +26,19 @@ related:
   * If an invalid [enum value](!alias-teizeit5se) is present in a node, querying it results in the same "null-bubbling" bevhariour. Deleting enum values in use is not possible anymore. This applies to
     * enums still referenced by a node
     * enums used as a default value on a field
+    
+* [Functions](!alias-boo6uteemo)
+
+  All npm modules are now supported in inline Graphcool Functions. Note that selecting a specific version is not supported, however:
+
+  ```js
+  // does NOT work:
+  require(graphql-request@1.3.0)
+
+  // works, always resolves latest version upon creating/updating an inline function:
+  require(graphql-request)
+  ```
+
 
 * Resources and Community Contributions
 
