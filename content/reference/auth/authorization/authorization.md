@@ -23,7 +23,7 @@ Graphcool features a simple yet powerful permission system that integrates seaml
 
 In general, permissions follow a **whitelist approach**:
 
-* *no operation is permitted unless explicitely allowed*
+* *no operation is permitted unless explicitly allowed*
 * *a permission cannot be nullified by other permissions*
 
 Essentially this means that a request is only executed if and only if it *matches* at least one specified permission. This allows us to specify permissions in a modular way and to focus on a specific use case in a single permission which leads to many simple permissions instead of fewer complex ones.
