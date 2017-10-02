@@ -2,7 +2,6 @@
 alias: xohbu7uf2e
 path: /docs/reference/functions/schema-extensions
 layout: REFERENCE
-beta: true
 description: Resolvers allow you to add custom GraphQL queries and mutations to your GraphQL API that are resolved by a Graphcool Function.
 tags:
   - functions
