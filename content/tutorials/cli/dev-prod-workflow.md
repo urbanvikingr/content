@@ -16,7 +16,7 @@ related:
 
 ## Overview
 
-In most real-world project, developers maintain (at least) two different environments:
+In most real-world projects, developers maintain (at least) two different environments:
 
 - **Development (_dev_)**: Used during the development phase
 - **Production (_prod_)**: Used when the app gets deployed, this is where real user data is stored and managed
