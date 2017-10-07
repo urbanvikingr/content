@@ -52,4 +52,24 @@ api.request(query)
   .then(data => console.log(data))
 ```
 
+### Passing arguments
+
+```js
+api.request(query, arguments)
+```
+
+For example:
+
+```js
+api.request(`
+    query getMovie($genre: String!) {
+      Movie(genre: $genre) {
+        id,
+        title
+      }
+    }`, { genre })
+    .then(result => {
+      ...
+    })
+```
 > Note: the `context` property of the exposed `event` object inside a Graphcool Function will include a [Permanent Authentication Token](!alias-eip7ahqu5o) **if it has the same name as the Graphcool Function**. If no such PAT exists, no PAT will be part of the event's context.
