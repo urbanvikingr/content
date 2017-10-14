@@ -273,7 +273,7 @@ type Story implements Node {
 }
 ```
 
-To change the multiplicity of the `user` field from `to-one` to `to-many`, simply change the type from `User!` to `[User!]!]`.
+To change the multiplicity of the `user` field from `to-one` to `to-many`, simply change the type from `User!` to `[User!]!`.
 
 ```graphql
 type User implements Node {
