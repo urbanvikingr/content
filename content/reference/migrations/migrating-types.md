@@ -121,7 +121,7 @@ This is how it looks like:
 type User implements Node {
   id: ID!
   name: String!
-  stories: [Post!]! @relation(name: "UserStories")
+  stories: [Post!]! @relation(name: "UserPosts")
 }
 
 type Post implements Node @rename(oldName: "Story") {
@@ -130,7 +130,7 @@ type Post implements Node @rename(oldName: "Story") {
   text: String!
   slug: String! @isUnique
   tags: [String!]
-  user: User! @relation(name: "UserStories")
+  user: User! @relation(name: "UserPosts")
 }
 ```
 
@@ -140,7 +140,7 @@ After the successful rename operation, we obtain this new schema file:
 type User implements Node {
   id: ID!
   name: String!
-  stories: [Post!]! @relation(name: "UserStories")
+  stories: [Post!]! @relation(name: "UserPosts")
 }
 
 type Post implements Node {
@@ -149,7 +149,7 @@ type Post implements Node {
   text: String!
   slug: String! @isUnique
   tags: [String!]
-  user: User! @relation(name: "UserStories")
+  user: User! @relation(name: "UserPosts")
 }
 ```
 
