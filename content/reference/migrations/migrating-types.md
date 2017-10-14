@@ -121,7 +121,7 @@ This is how it looks like:
 type User implements Node {
   id: ID!
   name: String!
-  stories: [Post!]! @relation(name: "UserPosts" oldName: "UserStories")
+  stories: [Post!]! @relation(name: "UserPosts", oldName: "UserStories")
 }
 
 type Post implements Node @rename(oldName: "Story") {
@@ -130,7 +130,7 @@ type Post implements Node @rename(oldName: "Story") {
   text: String!
   slug: String! @isUnique
   tags: [String!]
-  user: User! @relation(name: "UserPosts" oldName: "UserStories")
+  user: User! @relation(name: "UserPosts", oldName: "UserStories")
 }
 ```
 
